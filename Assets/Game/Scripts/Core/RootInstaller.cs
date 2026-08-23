@@ -6,9 +6,8 @@ public class RootInstaller : MonoBehaviour, IInstaller
 {
     public void InstallBindings(ContainerBuilder containerBuilder)
     {
-        var inputService = new InputService();
-        containerBuilder.RegisterValue(inputService);
-        
+        IInputService inputService = new InputService();
+        containerBuilder.RegisterValue(inputService, new[] { typeof(IInputService) });
         
     }
 }

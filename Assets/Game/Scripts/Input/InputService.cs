@@ -3,9 +3,13 @@ using UnityEngine;
 
 namespace Ach.Input
 {
-    public class InputService : IDisposable
+    public interface IInputService
     {
-
+        Vector2 InputAxis { get; }
+    }
+    
+    public class InputService : IInputService, IDisposable
+    {
         private InputSystem_Actions _actions;
 
         public InputService()
@@ -15,7 +19,7 @@ namespace Ach.Input
             _actions.Player.Enable();
         }
         
-        public Vector2 MoveInput => _actions.Player.Move.ReadValue<Vector2>();
+        public Vector2 InputAxis => _actions.Player.Move.ReadValue<Vector2>();
 
         public void Dispose()
         {

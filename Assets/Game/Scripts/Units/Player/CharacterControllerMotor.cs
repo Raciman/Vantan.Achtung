@@ -1,16 +1,22 @@
 using UnityEngine;
 
-public class CharacterControllerMotor : MonoBehaviour
+namespace Units.Player
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class CharacterControllerMotor : MonoBehaviour
     {
+        [SerializeField] private float speed = 5f;
         
-    }
+        [SerializeField] private CharacterController controller;
 
-    // Update is called once per frame
-    void Update()
-    {
+        private Vector3 _moveIntent;
         
+        public void SetMoveIntent(Vector3 dir) => _moveIntent = Vector3.ClampMagnitude(dir, 1f);
+
+        public void Tick(float deltaTime)
+        {
+            var motion = _moveIntent * speed * deltaTime;
+            controller.Move(motion);
+        }
     }
 }
+
