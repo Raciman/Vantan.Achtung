@@ -9,5 +9,6 @@ public class RootInstaller : MonoBehaviour, IInstaller
         IInputService inputService = new InputService();
         containerBuilder.RegisterValue(inputService, new[] { typeof(IInputService) });
         
+        
     }
 }

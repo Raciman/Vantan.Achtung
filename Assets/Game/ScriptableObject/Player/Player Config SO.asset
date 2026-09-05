@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937960661cdf3fa49b4b6c13cef60a50, type: 3}
+  m_Name: Player Config SO
+  m_EditorClassIdentifier: Assembly-CSharp::Ach.Units.Player.PlayerConfigSO
+  <MaxHealth>k__BackingField: 100
+  <Gravity>k__BackingField: 30
+  <Speed>k__BackingField: 1
+  <SprintSpeedMultiplier>k__BackingField: 1.9
+  <ReloadSpeedMultiplier>k__BackingField: 0.1
+  <Acceleration>k__BackingField: 40
+  <Deceleration>k__BackingField: 60
+  <ImpulseDamping>k__BackingField: 20
+  <TurnRate>k__BackingField: 50
+  <RotateSpeed>k__BackingField: 200
+  <HolsterDuration>k__BackingField: 1
+  <DrawDuration>k__BackingField: 1
+  <FireRecovery>k__BackingField: 0.25
+  <ReloadRecovery>k__BackingField: 1.5

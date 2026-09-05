@@ -34,13 +34,6 @@ namespace Ach.FSM
 
         public void AddAnyTransition(IState to, Func<bool> condition)
             => _anyTransitions.Add(new Transition(to, condition));
-        
-
-        public StateMachine(IState initState)
-        {
-            _currentState = initState;
-            _currentState.Enter();
-        }
 
         public void Enter() => ChangeState(_initialState);
         

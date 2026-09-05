@@ -1,6 +1,6 @@
 using Ach.FSM;
 
-namespace Units.Player
+namespace Ach.Units.Player
 {
     public abstract class PlayerStateBase : IState
     {

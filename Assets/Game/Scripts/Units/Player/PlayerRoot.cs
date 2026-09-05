@@ -1,27 +1,42 @@
 using System;
-using Ach.FSM;
 using Ach.Input;
 using Reflex.Attributes;
 using UnityEngine;
 
-namespace Units.Player
+namespace Ach.Units.Player
 {
-    public class PlayerRoot : MonoBehaviour
+    public sealed class PlayerRoot : MonoBehaviour
     {
+        [SerializeField] private PlayerConfigSO config;
+        
+        [SerializeField] private Camera camera;
         [SerializeField] private CharacterControllerMotor motor;
+        [SerializeField] private LookController look;
+        [SerializeField] private PlayerAnimatorController animator;
+        [SerializeField] private TurnInPlaceController turnInPlace;
+        [SerializeField] private WeaponHandler weaponHandler;
 
         private PlayerIntentProvider _intent;
-        private StateMachine _stateMachine;
+        private LocomotionMachine _locomotion;
+        private StanceMachine _stance;
+        
 
         [Inject] private IInputService _input;
 
         private void Awake()
         {
-            var ctx = new PlayerContext(motor);
-            _intent = new PlayerIntentProvider(_input, transform);
-            var freeState = new FreeState(ctx, motor, _intent);
+            _intent = new PlayerIntentProvider(_input, transform, camera);
+            var ctx = new PlayerContext(_intent, motor, look, animator, weaponHandler, config);
 
-            _stateMachine = new StateMachine(freeState);
+            _locomotion = new LocomotionMachine(ctx);
+            _stance = new StanceMachine(ctx);
+            
+            animator.Init(_stance, _locomotion);
+            
+            ctx.BuildMachines(_stance,  _locomotion);
+            
+            _locomotion.Enter();
+            _stance.Enter();
         }
 
         private void Update()
@@ -29,18 +44,22 @@ namespace Units.Player
             float dt = Time.deltaTime;
             
             _intent.Tick(dt);
-            _stateMachine.Tick(dt);
+            
+            weaponHandler.Tick(dt);
+            
+            _locomotion.Tick(dt);
+            _stance.Tick(dt);
+            
+            
             motor.Tick(dt);
+            look.Tick(dt);
+            turnInPlace.Tick(dt);
+            animator.Tick(dt);
         }
-    }
 
-    public class PlayerContext
-    {
-        public readonly CharacterControllerMotor Motor;
-    
-        public PlayerContext(CharacterControllerMotor motor)
+        private void OnDestroy()
         {
-            Motor = motor;
+            _intent.Dispose();
         }
     }
 }
