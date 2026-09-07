@@ -8,7 +8,7 @@ namespace Ach.Units.Player
         public int CurrentSlot { get; private set; }
         public int PendingSlot { get; private set; }
         public bool HasWeapon => CurrentSlot != 0;
-        public bool CanFire => _cooldown <= 0f; 
+        public bool CanFire => _cooldown <= 0f && HasWeapon; 
         public bool CanReload => HasWeapon;  // + && !IsMagazineFull TODO
 
         public void Tick(float deltaTime)

@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 namespace Ach.Units.Player
@@ -13,33 +14,47 @@ namespace Ach.Units.Player
         private static readonly int Reload = Animator.StringToHash("Reload");
         private static readonly int Holster = Animator.StringToHash("Holster");
         private static readonly int Draw = Animator.StringToHash("Draw");
+        private static readonly int ActionSpeed = Animator.StringToHash("ActionSpeed");
 
+        [SerializeField] private WeaponAnimSet[] weaponSets;
+        
+        [SerializeField] private PlayerConfigSO config;
         [SerializeField] private Animator animator;
         [SerializeField] private CharacterControllerMotor motor;
         
-        [SerializeField] private float maxSpeed = 5f;
+        [SerializeField] private float maxSpeed;
         [SerializeField] private float dampTime = 0.1f;
         [SerializeField] private float moveThreshold = 0.05f;
 
+        [SerializeField] private float blendTime = 0.13f;
 
         [SerializeField] private float layerBlendTime = 0.13f;
         private const int WeaponLayerCount = 2;
         private int _targetLayer;
-        private int _currentLayer;
+        private bool _justRequestedCrossFade;
+
+        private WeaponAnimSet _set;
+        private int _expectedState;
         
         private IStanceView _stanceView;
         private ILocomotionView _locomotionView;
+        
+        private bool CanPlayLayerAnimation => _set != null;
 
         public void Init(IStanceView stanceView, ILocomotionView locomotionView)
         {
             _stanceView = stanceView;
             _locomotionView = locomotionView;
+            foreach (var set in weaponSets)
+            {
+                set.BuildHashes(animator);
+            }
+            
         }
         
         public void Tick(float deltaTime)
         {
             var local = transform.InverseTransformDirection(motor.PlanarVelocity) / motor.MaxSpeed;
-
             
             animator.SetBool(IsMoving, local.sqrMagnitude > moveThreshold * moveThreshold);
             animator.SetFloat(Horizontal, local.x, dampTime, deltaTime);
@@ -53,49 +68,71 @@ namespace Ach.Units.Player
                 animator.SetLayerWeight(i,
                     Mathf.MoveTowards(animator.GetLayerWeight(i), target, deltaTime / layerBlendTime));
             }
+
+            if(_justRequestedCrossFade)
+                _justRequestedCrossFade = false;
+            else if (CanPlayLayerAnimation && _expectedState != 0 && !animator.IsInTransition(_set.Layer))
+            {
+                var info = animator.GetCurrentAnimatorStateInfo(_set.Layer);
+                if (info.fullPathHash != _expectedState)
+                    animator.Play(_expectedState, _set.Layer, 0f);   
+                
+            }
+        }
+        
+
+        public void SetWeaponLayer(int slot)
+        {
+            _set = weaponSets.FirstOrDefault(t => t.Layer == slot);
+            
+            _targetLayer = _set?.Layer ?? 0;   
+        }
+        
+        private void CrossFade(int stateHash, float logicDuration, float clipLength)
+        {
+            animator.SetFloat(ActionSpeed,
+                logicDuration > 0.0001f && clipLength > 0.0001f ? clipLength / logicDuration : 1f);
+            
+            _expectedState = stateHash;
+            _justRequestedCrossFade = true;
+            animator.CrossFadeInFixedTime(stateHash, blendTime, _set.Layer, 0f);
         }
 
         public void PlayFire()
         {
-            animator.SetTrigger(Fire);
-        }
-
-        public void SetWeaponLayer(int weaponIndex)
-        {
-            _targetLayer = weaponIndex;
-
-            /*_currentLayer = weaponIndex;
-            for (int i = 1; i <= 2; i++)
-            {
-                animator.SetLayerWeight(i, 0f);
-            }
-
-            animator.SetLayerWeight(weaponIndex, 1f);*/
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Fire, config.FireRecovery, _set.FireLength);
         }
 
         public void PlayReload()
         {
-            animator.SetTrigger(Reload);
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Reload, config.ReloadLength, _set.ReloadLength);
         }
 
         public void PlayHolster()
         {
-            animator.SetTrigger(Holster);
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Holster, config.HolsterDuration, _set.HolsterLength);
         }
 
         public void PlayDraw()
         {
-            animator.SetTrigger(Draw);
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Draw, config.DrawDuration, _set.DrawLength);
         }
 
-        /*public bool IsStateFinished()
+        public void PlayStanceIdle()
         {
-            
-            if(_currentLayer == 0)
-                return true;
-            var info = animator.GetCurrentAnimatorStateInfo(_currentLayer);
-            return !animator.IsInTransition(_currentLayer) && info.normalizedTime >= 1f;
-        }*/
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Idle,1f, 3f);
+        }
+
+        public void PlayStanceAim()
+        {
+            if (!CanPlayLayerAnimation) return;
+            CrossFade(_set.Aim, 0f, 0f);
+        }
     }
 }
 

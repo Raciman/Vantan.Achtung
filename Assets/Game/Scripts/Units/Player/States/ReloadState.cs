@@ -22,7 +22,7 @@ namespace Ach.Units.Player
         public override void Tick(float deltaTime)
         {
             _elapsed += deltaTime;
-            if(_elapsed >= Ctx.Config.ReloadRecovery)
+            if(_elapsed >= Ctx.Config.ReloadLength)
                 IsCompleted = true;
         }
 

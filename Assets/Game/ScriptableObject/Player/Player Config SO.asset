@@ -25,4 +25,4 @@ MonoBehaviour:
   <HolsterDuration>k__BackingField: 1
   <DrawDuration>k__BackingField: 1
   <FireRecovery>k__BackingField: 0.25
-  <ReloadRecovery>k__BackingField: 1.5
+  <ReloadLength>k__BackingField: 1.5

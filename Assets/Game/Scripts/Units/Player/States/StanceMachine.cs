@@ -60,7 +60,7 @@ namespace Ach.Units.Player
             _stateMachine.AddTransition(_holster, _draw, () 
                 => _holster.IsCompleted && ctx.Weapon.PendingSlot != 0);
             _stateMachine.AddTransition(_holster, _idle, () 
-                => _holster.IsCompleted && ctx.Weapon.PendingSlot != 0);
+                => _holster.IsCompleted && ctx.Weapon.PendingSlot == 0);
             _stateMachine.AddTransition(_draw, _idle, () 
                 => _draw.IsCompleted);
 

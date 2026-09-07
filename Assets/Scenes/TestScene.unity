@@ -1351,11 +1351,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099b21e867b952c42bc0bc65c436f153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimatorController
+  weaponSets:
+  - layer: 1
+    idleState: Idle
+    aimState: Aim
+    drawState: Draw
+    holsterState: Holster
+    fireState: Fire
+    reloadState: Reload
+    drawClip: {fileID: 7400000, guid: 3370f25fd385d7445bcd83fa29f98946, type: 2}
+    holsterClip: {fileID: 7400000, guid: 74bb6244786dc4048ba74ac3df1fa7e6, type: 2}
+    fireClip: {fileID: 7400000, guid: 1ce20831c562e1a47a2e140bf5a651b7, type: 2}
+    reloadClip: {fileID: 7400000, guid: 3e41d914ee265714493a2ec8d2c6170e, type: 2}
+  - layer: 2
+    idleState: Idle
+    aimState: Aim
+    drawState: Draw
+    holsterState: Holster
+    fireState: Fire
+    reloadState: Reload
+    drawClip: {fileID: 7400000, guid: 3370f25fd385d7445bcd83fa29f98946, type: 2}
+    holsterClip: {fileID: 7400000, guid: 74bb6244786dc4048ba74ac3df1fa7e6, type: 2}
+    fireClip: {fileID: 7400000, guid: 1ce20831c562e1a47a2e140bf5a651b7, type: 2}
+    reloadClip: {fileID: 7400000, guid: 3e41d914ee265714493a2ec8d2c6170e, type: 2}
+  config: {fileID: 11400000, guid: 6529c8c8f13c10b468075a6554570c19, type: 2}
   animator: {fileID: 3311873181882610129}
   motor: {fileID: 1351449054}
   maxSpeed: 1.1
   dampTime: 0.1
   moveThreshold: 0.05
+  blendTime: 0.13
+  layerBlendTime: 0.13
 --- !u!114 &1351449059
 MonoBehaviour:
   m_ObjectHideFlags: 0

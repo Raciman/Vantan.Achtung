@@ -10,7 +10,7 @@ namespace Ach.Units.Player
 
         public override void Enter()
         {
-            
+            Ctx.Animator.PlayStanceAim();
         }
 
         public override void Tick(float deltaTime)
