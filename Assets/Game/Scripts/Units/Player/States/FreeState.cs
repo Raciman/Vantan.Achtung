@@ -31,7 +31,7 @@ namespace Ach.Units.Player
             Ctx.Motor.SetMoveIntent(Ctx.Intent.MoveDirection);
             Ctx.Motor.SetSpeedMultiplier(speedMultiplier);
             
-            if (Ctx.Stance.IsAiming)
+            if (Ctx.Intent.WantsAim)
                 Ctx.Look.SetTarget(Ctx.Intent.LookDirection);
             else if(Ctx.Intent.MoveDirection.sqrMagnitude > 0.001f)
                 Ctx.Look.SetTarget(Ctx.Intent.MoveDirection);

@@ -20,8 +20,8 @@ MonoBehaviour:
   <Acceleration>k__BackingField: 40
   <Deceleration>k__BackingField: 60
   <ImpulseDamping>k__BackingField: 20
-  <TurnRate>k__BackingField: 50
-  <RotateSpeed>k__BackingField: 200
+  <TurnRate>k__BackingField: 300
+  <RotateSpeed>k__BackingField: 180
   <HolsterDuration>k__BackingField: 1
   <DrawDuration>k__BackingField: 1
   <FireRecovery>k__BackingField: 0.25
