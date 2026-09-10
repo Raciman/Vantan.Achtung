@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ach.Weapons.WeaponConfigSO
   <Damage>k__BackingField: 5
   <Range>k__BackingField: 50
+  <Spread>k__BackingField: 1
+  <BulletVfx>k__BackingField: {fileID: 5053556067470176471, guid: 6bf146837a3ce804298dad61b5f59df0, type: 3}
+  <BulletVfxSpeed>k__BackingField: 50

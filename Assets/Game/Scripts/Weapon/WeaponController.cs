@@ -1,4 +1,7 @@
 using Ach.Units;
+using PrimeTween;
+using Reflex.Attributes;
+using RPool;
 using UnityEngine;
 
 namespace Ach.Weapons
@@ -12,6 +15,8 @@ namespace Ach.Weapons
         [SerializeField] private LineRenderer laser;
 
         private float _laserLength = 3f;
+
+        [Inject] private PoolService _pool;
         
         public Transform ShootPoint => shootPoint;
 
@@ -22,17 +27,32 @@ namespace Ach.Weapons
         
         public void Shoot()
         {
-
+            var trail = _pool.Get(config.BulletVfx, shootPoint.position, shootPoint.rotation);
             if (Physics.Raycast(shootPoint.position, shootPoint.forward, out RaycastHit hit,
                     config.Range, mask, QueryTriggerInteraction.Ignore))
             {
-                hit.collider.GetComponentInParent<IDamageable>()?.ApplyDamage(config.Damage);
+                float travelTime = Vector3.Distance(shootPoint.position, hit.point) / config.BulletVfxSpeed;
+                var damageable = hit.collider.GetComponentInParent<IDamageable>() as Component;
+
+                Tween.Position(trail.transform, hit.point, travelTime).OnComplete(() =>
+                {
+                    if(damageable)
+                    ((IDamageable)damageable).ApplyDamage(config.Damage);
+                    trail.Despawn();
+                });
+
             }
-            //spawn vfx
+            else
+            {
+                float travelTime = Vector3.Distance(shootPoint.position, shootPoint.position * 3f) / config.BulletVfxSpeed;
+                Vector3 hitPoint = shootPoint.position + shootPoint.forward * config.Range;
+                Tween.Position(trail.transform, hitPoint, travelTime).OnComplete(() =>
+                {
+                    trail.Despawn();
+                });
+            }
         }
         
-        
-
         private void UpdateAimLaser()
         {
             float tipLength = 0.5f;
