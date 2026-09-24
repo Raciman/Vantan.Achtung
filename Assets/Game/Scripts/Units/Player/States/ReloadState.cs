@@ -15,15 +15,18 @@ namespace Ach.Units.Player
             _elapsed = 0;
             IsCompleted = false;
             Ctx.Weapon.StartReload();
-            Ctx.Animator.PlayReload();
+            Ctx.Animator.PlayReload(Ctx.Weapon.ReloadDuration);
             Ctx.Intent.ConsumeReload();
         }
 
         public override void Tick(float deltaTime)
         {
             _elapsed += deltaTime;
-            if(_elapsed >= Ctx.Config.ReloadLength)
+            if (!IsCompleted && _elapsed >= Ctx.Weapon.ReloadDuration)
+            {
+                Ctx.Weapon.CompleteReload();
                 IsCompleted = true;
+            }
         }
 
         public override void Exit()

@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 namespace Ach.Units.Player
 {
@@ -17,6 +18,9 @@ namespace Ach.Units.Player
         private static readonly int ActionSpeed = Animator.StringToHash("ActionSpeed");
 
         [SerializeField] private WeaponAnimSet[] weaponSets;
+
+        [SerializeField] private Rig aimRig;
+        [SerializeField] private float rigBlendTime = 0.15f;
         
         [SerializeField] private PlayerConfigSO config;
         [SerializeField] private Animator animator;
@@ -78,6 +82,9 @@ namespace Ach.Units.Player
                     animator.Play(_expectedState, _set.Layer, 0f);   
                 
             }
+            
+            float rigTarget = _stanceView.IsWeaponRaised ?  1f : 0f;
+            aimRig.weight = Mathf.MoveTowards(aimRig.weight, rigTarget, deltaTime / rigBlendTime);
         }
         
 
@@ -98,16 +105,16 @@ namespace Ach.Units.Player
             animator.CrossFadeInFixedTime(stateHash, blendTime, _set.Layer, 0f);
         }
 
-        public void PlayFire()
+        public void PlayFire(float duration)
         {
             if (!CanPlayLayerAnimation) return;
-            CrossFade(_set.Fire, config.FireRecovery, _set.FireLength);
+            CrossFade(_set.Fire, duration, _set.FireLength);
         }
 
-        public void PlayReload()
+        public void PlayReload(float duration)
         {
             if (!CanPlayLayerAnimation) return;
-            CrossFade(_set.Reload, config.ReloadLength, _set.ReloadLength);
+            CrossFade(_set.Reload, duration, _set.ReloadLength);
         }
 
         public void PlayHolster()
@@ -125,7 +132,7 @@ namespace Ach.Units.Player
         public void PlayStanceIdle()
         {
             if (!CanPlayLayerAnimation) return;
-            CrossFade(_set.Idle,1f, 3f);
+            CrossFade(_set.Idle,0f, 0f);
         }
 
         public void PlayStanceAim()

@@ -11,6 +11,7 @@ namespace Ach.Units.Player
     {
         bool IsAiming { get; }
         bool IsReloading { get; }
+        bool IsWeaponRaised { get; }
     }
 
 }

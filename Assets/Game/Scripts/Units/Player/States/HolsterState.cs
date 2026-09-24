@@ -34,21 +34,11 @@ namespace Ach.Units.Player
         {
             IsCompleted = false;
 
-            if (Ctx.Weapon.PendingSlot == 0)
+            if (!Ctx.Weapon.HasPending)
             {
-                Ctx.Weapon.ApplyPendingSlot();
+                Ctx.Weapon.ApplyPendingWeapon();
                 Ctx.Animator.SetWeaponLayer(0);
             }
-            
-            /*var index = Ctx.Intent.WeaponIndex;
-            Ctx.Intent.ConsumeChangeWeapon();
-
-            if (Ctx.Weapon.CurrentSlot == index)
-                Ctx.Weapon.UnequipSlot();
-            else
-                Ctx.Weapon.EquipSlot(index);
-            //Ctx.Animator.SetWeaponLayer(Ctx.Weapon.Current.LayerIndex); TODO
-            Ctx.Animator.SetWeaponLayer(index);*/
         }
     }
 

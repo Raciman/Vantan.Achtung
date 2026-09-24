@@ -1,10 +1,9 @@
-using Ach.Units;
 using RPool;
 using UnityEngine;
 
 namespace Ach.Weapons
 {
-    public class BulletVfxComponent : MonoBehaviour, IPoolable
+    public sealed class BulletVfxComponent : MonoBehaviour, IPoolable
     {
         [SerializeField] private TrailRenderer trail;
         public IPool Owner { get; set; }

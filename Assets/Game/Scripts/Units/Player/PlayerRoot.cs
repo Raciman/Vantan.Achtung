@@ -1,4 +1,3 @@
-using System;
 using Ach.Input;
 using Reflex.Attributes;
 using UnityEngine;
@@ -15,6 +14,7 @@ namespace Ach.Units.Player
         [SerializeField] private PlayerAnimatorController animator;
         [SerializeField] private TurnInPlaceController turnInPlace;
         [SerializeField] private WeaponHandler weaponHandler;
+        [SerializeField] private InteractController interact;
 
         private PlayerIntentProvider _intent;
         private LocomotionMachine _locomotion;
@@ -26,12 +26,13 @@ namespace Ach.Units.Player
         private void Awake()
         {
             _intent = new PlayerIntentProvider(_input, transform, camera);
-            var ctx = new PlayerContext(_intent, motor, look, animator, weaponHandler, config);
+            var ctx = new PlayerContext(_intent, motor, look, animator, weaponHandler, config, interact);
 
             _locomotion = new LocomotionMachine(ctx);
             _stance = new StanceMachine(ctx);
             
             animator.Init(_stance, _locomotion);
+            weaponHandler.Init(_stance);
             
             ctx.BuildMachines(_stance,  _locomotion);
             

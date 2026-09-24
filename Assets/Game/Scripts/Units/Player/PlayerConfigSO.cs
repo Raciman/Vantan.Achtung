@@ -20,8 +20,6 @@ namespace Ach.Units.Player
         
         [field: SerializeField] public float HolsterDuration { get; private set; }
         [field: SerializeField] public float DrawDuration { get; private set; }
-        [field: SerializeField] public float FireRecovery { get; private set; }
-        [field: SerializeField] public float ReloadLength { get; private set; }
     }
 }
 

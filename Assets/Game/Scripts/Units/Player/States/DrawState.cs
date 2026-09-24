@@ -16,14 +16,12 @@ namespace Ach.Units.Player
             _elapsed = 0f;
             IsCompleted = false;
 
-            if (Ctx.Intent.WantsChangeWeapon)
-            {
+            if (!Ctx.Weapon.HasPending && Ctx.Intent.WantsChangeWeapon)
                 Ctx.Weapon.RequestSlot(Ctx.Intent.WeaponIndex);
-                Ctx.Intent.ConsumeChangeWeapon();
-            }
             
-            Ctx.Weapon.ApplyPendingSlot();
-            Ctx.Animator.SetWeaponLayer(Ctx.Weapon.CurrentSlot);
+            Ctx.Intent.ConsumeChangeWeapon();
+            Ctx.Weapon.ApplyPendingWeapon();
+            Ctx.Animator.SetWeaponLayer(Ctx.Weapon.CurrentWeapon.AnimLayer);
             Ctx.Animator.PlayDraw();
         }
 

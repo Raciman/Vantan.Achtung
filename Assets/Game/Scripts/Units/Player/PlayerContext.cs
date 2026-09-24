@@ -1,6 +1,3 @@
-
-using UnityEngine;
-
 namespace Ach.Units.Player
 {
     public sealed class PlayerContext
@@ -15,11 +12,12 @@ namespace Ach.Units.Player
         public ILocomotionView Locomotion { get; private set; }
         
         public PlayerConfigSO Config { get; private set; }
+        public InteractController Interact { get; private set; }
         
         
         public PlayerContext(IPlayerIntent intent, CharacterControllerMotor motor, 
             LookController look, PlayerAnimatorController animator, WeaponHandler weaponHandler, 
-            PlayerConfigSO config)
+            PlayerConfigSO config, InteractController interact)
         {
             Intent = intent;
             Motor = motor;
@@ -27,6 +25,7 @@ namespace Ach.Units.Player
             Animator = animator;
             Weapon = weaponHandler;
             Config = config;
+            Interact = interact;
         }
 
         public void BuildMachines(IStanceView stance, ILocomotionView locomotion)

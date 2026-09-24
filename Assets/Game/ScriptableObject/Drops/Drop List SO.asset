@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6abc31b77a984da40beddc029c161ea1, type: 3}
+  m_Name: Drop List SO
+  m_EditorClassIdentifier: Assembly-CSharp::Ach.Drop.DropListSO
+  <Weapons>k__BackingField:
+  - {fileID: 8857059462169579635, guid: 57a1bd0f60750e0468fec24fdb1353d4, type: 3}
+  - {fileID: 4104239579301282046, guid: eca13c18871062c478b9bc681dc94ea7, type: 3}
+  - {fileID: 6577038674473857065, guid: afd4336604597494da475b7000324773, type: 3}

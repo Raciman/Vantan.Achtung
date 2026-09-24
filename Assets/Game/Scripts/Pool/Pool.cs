@@ -17,7 +17,7 @@ namespace RPool
         event Action<Component> Created;
         event Action<Component> Released;
 
-        Component Get();
+        Component Get(Vector3 position, Quaternion rotation);
         void Release(Component instance);
         void ReleaseAll();
         void Prewarm(int  preloadCount = 0, Transform parent = null);
@@ -56,14 +56,14 @@ namespace RPool
             }
         }
 
-        Component IPool.Get() => Get();
+        Component IPool.Get(Vector3 position, Quaternion rotation) => Get(position, rotation);
 
-        public T Get()
+        public T Get(Vector3 position, Quaternion rotation)
         {
             T instance;
             if (_available.Count > 0) instance = _available.Pop();
             else instance = CreateInstance();
-            
+            instance.transform.SetPositionAndRotation(position, rotation);
             _active.Add(instance);
             instance.OnGet();
             instance.gameObject.SetActive(true);

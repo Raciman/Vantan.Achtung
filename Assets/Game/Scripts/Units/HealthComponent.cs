@@ -2,26 +2,33 @@ using UnityEngine;
 
 namespace Ach.Units
 {
+    public interface IDamageable
+    {
+        Transform Transform { get; }
+        void ApplyDamage(int damage);
+    }
+    
     public class HealthComponent : MonoBehaviour, IDamageable
     {
-        [SerializeField] private float maxHealth = 100;
+        [SerializeField] protected int maxHealth = 100;
 
-        private float _health;
+        protected int Health;
+        public Transform Transform => gameObject.transform;
 
         private void Awake()
         {
-            _health = maxHealth;
+            Health = maxHealth;
         }
-
-        public void ApplyDamage(float damage)
+        
+        public virtual void ApplyDamage(int damage)
         {
-            if(damage > _health)
-                damage = _health;
+            if(damage > Health)
+                damage = Health;
             
-            _health -= damage;
+            Health -= damage;
 
-            Debug.Log(name + " current HP " + _health);
-            if (_health <= 0)
+            Debug.Log(name + " current HP " + Health);
+            if (Health <= 0)
                 DeathHandler();
         }
 
@@ -31,9 +38,6 @@ namespace Ach.Units
         }
     }
     
-    public interface IDamageable
-    {
-        void ApplyDamage(float damage);
-    }
+
 }
 

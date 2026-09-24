@@ -37,8 +37,7 @@ namespace RPool
                 _pools[prefab]  = pool;
             }
             
-            var instance =  (T)pool.Get();
-            instance.transform.SetPositionAndRotation(position, rotation);
+            var instance =  (T)pool.Get(position, rotation);
             Spawned?.Invoke(instance);
             return instance;
         }

@@ -10,9 +10,12 @@ namespace Ach.Input
         Vector2 MousePosition { get; }
         public bool AimHeld { get; }
         public bool SprintHeld { get; }
+        public bool FireHeld { get; }
         public event Action FirePressed;
         public event Action<int> WeaponSlotPressed;
         public event Action ReloadPressed;
+        public event Action InteractPressed;
+        public event Action DropPressed;
     }
     
     public sealed class InputService : IInputService, IDisposable
@@ -22,6 +25,8 @@ namespace Ach.Input
         public event Action FirePressed;
         public event Action<int> WeaponSlotPressed;
         public event Action ReloadPressed;
+        public event Action InteractPressed;
+        public event Action DropPressed;
 
         public InputService()
         {
@@ -32,18 +37,25 @@ namespace Ach.Input
             _actions.Player.WeaponSlot1.performed += WeaponSlot1Pressed;
             _actions.Player.WeaponSlot2.performed += WeaponSlot2Pressed;
             _actions.Player.Reload.performed += ReloadButtonPressed;
+            _actions.Player.Interact.performed += InteractButtonPressed;
+            _actions.Player.DropItem.performed += DropButtonPressed;
         }
 
+        private void DropButtonPressed(InputAction.CallbackContext obj)
+            => DropPressed?.Invoke();
+
+        private void InteractButtonPressed(InputAction.CallbackContext obj)
+            => InteractPressed?.Invoke();
+        
         private void ReloadButtonPressed(InputAction.CallbackContext obj)
             => ReloadPressed?.Invoke();
 
         private void WeaponSlot2Pressed(InputAction.CallbackContext obj)
-            => WeaponSlotPressed?.Invoke(2);
-
-        private void WeaponSlot1Pressed(InputAction.CallbackContext obj)
             => WeaponSlotPressed?.Invoke(1);
 
-
+        private void WeaponSlot1Pressed(InputAction.CallbackContext obj)
+            => WeaponSlotPressed?.Invoke(0);
+        
         private void AttackPressed(InputAction.CallbackContext obj)
             => FirePressed?.Invoke();
 
@@ -53,6 +65,7 @@ namespace Ach.Input
 
         public bool AimHeld => _actions.Player.Aim.IsPressed();
         public bool SprintHeld => _actions.Player.Sprint.IsPressed();
+        public bool FireHeld => _actions.Player.Attack.IsPressed();
 
         public void Dispose()
         {
@@ -64,7 +77,10 @@ namespace Ach.Input
             _actions.Player.WeaponSlot1.performed -= WeaponSlot1Pressed;
             _actions.Player.WeaponSlot2.performed -= WeaponSlot2Pressed;
             _actions.Player.Reload.performed -= ReloadButtonPressed;
+            _actions.Player.Interact.performed -= InteractButtonPressed;
+            _actions.Player.DropItem.performed -= DropButtonPressed;
 
+            
             _actions?.Dispose();
 
         }

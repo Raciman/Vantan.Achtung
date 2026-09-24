@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9828c87b1a271434ab0a240fda26e782, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: Assembly-CSharp::Ach.Weapons.WeaponConfigSO
-  <Damage>k__BackingField: 5
+  <Mode>k__BackingField: 0
+  <Damage>k__BackingField: 20
   <Range>k__BackingField: 50
-  <Spread>k__BackingField: 1
+  <ReloadDuration>k__BackingField: 1.5
+  <Spread>k__BackingField: 5
+  <FireRate>k__BackingField: 0.3
+  <BulletShotCount>k__BackingField: 1
+  <MaxBulletCapacity>k__BackingField: 100
+  <ClipCapacity>k__BackingField: 15
   <BulletVfx>k__BackingField: {fileID: 5053556067470176471, guid: 6bf146837a3ce804298dad61b5f59df0, type: 3}
   <BulletVfxSpeed>k__BackingField: 50
+  <AnimLayer>k__BackingField: 1
