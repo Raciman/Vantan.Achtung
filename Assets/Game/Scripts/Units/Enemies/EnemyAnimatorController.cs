@@ -33,6 +33,9 @@ namespace Ach.Units.Enemies
             
             animator.SetTrigger(Attack);
         }
+
+        public void SwitchAnimator(bool active) => animator.enabled = active;
+
     }
 }
 

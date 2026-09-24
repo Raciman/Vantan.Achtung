@@ -14,6 +14,7 @@ namespace Ach.Units
 
         protected int Health;
         public Transform Transform => gameObject.transform;
+        public bool IsDead => Health <= 0;
 
         private void Awake()
         {

@@ -13,6 +13,7 @@ namespace Ach.Units.Enemies
         private ChaseState _chaseState;
         private AttackState _attackState;
         private SeekState _seekState;
+        private DeadState _deadState;
         
 
         public EnemyBehaviourMachine(EnemyContext context)
@@ -22,6 +23,7 @@ namespace Ach.Units.Enemies
             _chaseState = new ChaseState(context);
             _attackState = new AttackState(context);
             _seekState = new SeekState(context);
+            _deadState = new DeadState(context);
 
             _stateMachine = new StateMachine();
             
@@ -55,6 +57,9 @@ namespace Ach.Units.Enemies
             //Seek
             _stateMachine.AddTransition(_seekState, _idleState, () =>
                 _seekState.IsCompleted);
+            
+            //Dead
+            _stateMachine.AddAnyTransition(_deadState, () => context.Health.IsDead);
 
         }
 

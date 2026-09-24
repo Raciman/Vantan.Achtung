@@ -9,6 +9,7 @@ namespace Ach.Sfx
         PistolShot,
         ShotgunShot,
         AutoRifleShot,
+        BGM,
     }
     
     [Serializable]

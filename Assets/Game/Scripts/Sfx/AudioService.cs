@@ -20,6 +20,7 @@ namespace Ach.Sfx
             for (int i = 0; i < poolSize; i++)
                 _sources[i] = Instantiate(sourcePrefab, transform);
             
+            PlayMusic(clips.GetClip(SoundType.BGM));
         }
 
         public void PlayAt(SoundType type, Vector3 position, float volumeScale = .6f)

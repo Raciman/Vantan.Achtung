@@ -11,9 +11,12 @@ namespace Ach.Units.Enemies
         public NavMeshAgent Agent { get; }
         public IDamageable Target { get; }
         public EnemyAnimatorController Animator { get; }
+        public HealthComponent Health { get; }
+        public RagdollController Ragdoll { get; }
 
         public EnemyContext(IEnemyIntent intent, EnemyConfigSO config, Vector3 position,
-            NavMeshAgent agent, IDamageable target, EnemyAnimatorController  animator)
+            NavMeshAgent agent, IDamageable target, EnemyAnimatorController  animator,
+            HealthComponent health, RagdollController ragdoll)
         {
             Intent = intent;
             Config = config;
@@ -21,6 +24,8 @@ namespace Ach.Units.Enemies
             Agent = agent;
             Target = target;
             Animator = animator;
+            Health = health;
+            Ragdoll = ragdoll;
         }
     }
 }

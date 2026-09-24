@@ -1,16 +1,18 @@
 
+using RPool;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace Ach.Units.Enemies
 {
-    public class EnemyRoot : MonoBehaviour
+    public class EnemyRoot : MonoBehaviour, IPoolable
     {
-        [SerializeField] private Transform player; //TODO Временно. Заменить на инит в пуле или ДИ
-        
+       
         [SerializeField] private EnemyConfigSO config;
         [SerializeField] private NavMeshAgent agent;
         [SerializeField] private LayerMask obstacleMask;
+        [SerializeField] private HealthComponent health;
+        [SerializeField] private RagdollController ragdoll;
 
         [SerializeField] private EnemyAnimatorController animator;
         
@@ -18,16 +20,21 @@ namespace Ach.Units.Enemies
         private EnemyIntentProvider  _intent;
         private EnemyBehaviourMachine _behaviourMachine;
 
-        private void Awake()
+        public void Init(IDamageable player)
         {
-            var target = player.GetComponent<HealthComponent>(); // TODO
             
-            _intent = new EnemyIntentProvider(transform, player, obstacleMask);
-            _context = new EnemyContext(_intent, config, transform.position, agent, target, animator);
+            _intent = new EnemyIntentProvider(transform, player.Transform, obstacleMask);
+            _context = new EnemyContext(_intent, config, transform.position, agent, player, animator,
+                health, ragdoll);
             
             _behaviourMachine = new EnemyBehaviourMachine(_context);
             
             _behaviourMachine.Enter();
+        }
+        
+        private void Awake()
+        {
+
         }
 
         private void Update()
@@ -37,6 +44,17 @@ namespace Ach.Units.Enemies
             _behaviourMachine.Tick(dt);
             
             animator.Tick(dt);
+        }
+
+        public IPool Owner { get; set; }
+        public void OnGet()
+        {
+            
+        }
+
+        public void OnRelease()
+        {
+            
         }
     }
 }
