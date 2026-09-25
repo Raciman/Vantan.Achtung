@@ -1,0 +1,2113 @@
+{
+  "roots": {
+    "Assets/InputSystem_Actions.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/InputSystem_Actions.inputactions": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset",
+      "Code path: Assets/InputSystem_Actions.cs"
+    ],
+    "Assets/AddressableAssetsData/AddressableAssetSettings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/DefaultObject.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset"
+    ],
+    "Assets/AddressableAssetsData/ProfileDataSourceSettings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Asset-Tables-English (en).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Asset-Tables-Japanese (ja).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-English (en).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Japanese (ja).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Japanese (ja).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_BundledAssetGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_ContentUpdateGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_LocalizationGroupSchema.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/AddressableAssetsData/Windows/addressables_content_state.bin": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Localization/English (en).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/Japanese (ja).asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/Localization Settings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset"
+    ],
+    "Assets/Game/Localization/MenuAssets Shared Data.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/MenuAssets.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Localization/MenuAssets_en.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/MenuAssets_ja.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/StringTable Shared Data.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/StringTable.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Localization/StringTable_en.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Localization/StringTable_ja.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Assets/Game/Prefabs/Core/RootScope.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Drops/AutoRifleDrop.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Drops/PistolDrop.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Drops/ShotgunDrop.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Drops/WeaponDrop.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Enemies/EnemyBase.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Quests/QuestZone.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Sfx/SfxObject.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Prefabs/Vfx/BulletVfx.prefab": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Resources/Animations/Ch36_nonPBR@Walk Forward.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Grab Rifle From The Side And Put Back.anim": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Enemy/EnemyAnimationController.controller": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Enemy/Zombie Idle.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Enemy/Zombie Running.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Enemy/Zombie Walking.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/PlayerAnimation/UpperBody.mask": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Grab Rifle From Behind Shoulder.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Grab Rifle From The Side.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Put Back Rifle Behind Shoulder.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Put Back Rifle.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Animations/Tes/MixamoAvatar.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Materials/AimLaser.mat": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Materials/Bullet.mat": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Retro_Char_Base_Female.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Enemies/Ch36_nonPBR@Zombie Attack.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/Eve By J.Gonzales.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_diffuse.png": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_M.mat": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_normal.png": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_specular.png": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Weapons/AchColorPalette.png": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Weapons/FPistol.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/Resources/Models/Weapons/ShotgunA.fbx": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Game/ScriptableObject/Drops/Drop List SO.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Enemies/Wanderer Enemy Config SO.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Events/AmmoChangedEvent.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Events/HealthChangedEvent.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Events/HolsterWeaponEvent.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Events/InteractTipEvent.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Player/Player Config SO.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Sfx/Audio Clips Data SO.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Weapons/AutoRifle.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Weapons/Pistol.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/ScriptableObject/Weapons/Shotgun.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Scripts/Core/Bootstrap.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Core/BootstrapEntry.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Core/GameplaySceneInstaller.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Core/RootInstaller.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Drop/DropListSO.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Drop/DropService.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Events/BoolEvent.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Events/IntIntEvent.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Input/InputService.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Input/PointerWorldProjector.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Interact/IInteractable.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Interact/IInteractor.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Pool/Pool.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Pool/PoolService.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Quest/QuestManager.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Quest/QuestZone.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Sfx/AudioClipsDataSO.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Sfx/AudioService.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/StateMachine/State.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/StateMachine/StateMachine.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/LocaleButton.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/LocalizedMenuFont.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/MainMenuController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/PlayerAmmoUI.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/PlayerHealthBarUI.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/SceneLoader.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/UIManager.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/UI/Editor/SceneLoaderEditor.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/HealthComponent.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/RagdollController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/SpawnerManager.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/SpawnZone.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyAnimatorController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyAnimSet.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyConfigSO.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyContext.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyIntentProvider.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyRandomizer.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/EnemyRoot.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/AttackState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/ChaseState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/DeadState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/EnemyBehaviourMachine.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/EnemyStateBase.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/IdleState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/SeekState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Enemies/States/WanderState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/CharacterControllerMotor.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/InteractController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/LeftHandTargetIK.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/LookController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerAnimatorController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerConfigSO.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerContext.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerHealthComponent.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerIntentProvider.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/PlayerRoot.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/TurnInPlaceController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/WeaponAnimSet.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/WeaponHandler.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/AimState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/DodgeState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/DrawState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/DropState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/FiringState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/FreeState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/HolsterState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/IdleState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/InteractState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/Interfaces.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/LocomotionMachine.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/PlayerStateBase.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/ReloadState.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Units/Player/States/StanceMachine.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/AutoRifleController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/BulletVfxComponent.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/DropWeaponInfo.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/PistolController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/ShotgunController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/WeaponConfigSO.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/WeaponController.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Scripts/Weapon/WeaponPickup.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/Sounds/GUNRif_SVD Dragunov 7.62×54R DESIGNED Single Shot Core Long_DRCA_DRAG_Stereo_05.wav": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Sounds/Kevin MacLeod - Dark Fog.mp3": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Sounds/sb_computations.mp3": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Sounds/SPAS-12_single.wav": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Game/Tests/MenuFlowSmokeTest.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Game/UI/Art/MenuBackground.png": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Game/UI/Fonts/MenuJapanese.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Game/UI/Fonts/MenuLatin.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Game/UI/Fonts/NotoSansCJKjp-Regular.otf": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Game/UI/Fonts/OFL.txt": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "License/attribution"
+    ],
+    "Assets/Plugins/PrimeTween/PrimeTweenInstaller.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Code path: Assets/Plugins/PrimeTween/internal/PrimeTweenInstaller.cs"
+    ],
+    "Assets/Plugins/PrimeTween/internal/PrimeTween.Installer.asmdef": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Plugins/PrimeTween/internal/PrimeTweenInstaller.cs": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Resources/ReflexSettings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/Scenes/BootScene.unity": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset"
+    ],
+    "Assets/Scenes/GamePlayScene.unity": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Scenes/MenuScene.unity": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset",
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs"
+    ],
+    "Assets/Scenes/TestScene.unity": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config",
+      "ProjectSettings GUID reference: EditorBuildSettings.asset"
+    ],
+    "Assets/Scenes/GamePlayScene/NavMesh-Desert_Ground.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Scenes/TestScene/NavMesh-NavMesh Surface.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Settings/DefaultVolumeProfile.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Settings/Mobile_Renderer.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Settings/Mobile_RPAsset.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: QualitySettings.asset"
+    ],
+    "Assets/Settings/PC_Renderer.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Settings/PC_RPAsset.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: GraphicsSettings.asset",
+      "ProjectSettings GUID reference: QualitySettings.asset"
+    ],
+    "Assets/Settings/SampleSceneProfile.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "ProjectSettings GUID reference: GraphicsSettings.asset"
+    ],
+    "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "License/attribution"
+    ],
+    "Assets/TextMesh Pro/Fonts/LiberationSans.ttf": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved"
+    ],
+    "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/TMP Settings.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Implicit runtime/editor loading directory"
+    ],
+    "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMPro.cginc": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+      "Code path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader": [
+      "Outside downloaded-content cleanup scope; all Assets/Game preserved",
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/ctrl_InjuredDropToFloor.controller": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor.FBX": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor_GetUp.FBX": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor_Loop.FBX": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/CharacterItemEvent.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/Element.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/FollowCam.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/IndividualAnimationDisplay.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/MotionController.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/MultiAnimationDisplay.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/PackInfo.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/Spawner.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/SpawnIdentifier.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Shaders/Shader Graph/HS_Blend_CG.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Shaders/Shader Graph/HS_LitFresnel.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Electrolize - OFL.txt": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Oxanium - OFL.txt": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/128/Icon_Copyright.Png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/256/Icon_Copyright.Png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/512/Icon_Copyright.Png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/64/Icon_Copyright.Png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard01.png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard01_White.png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard02.png": [
+      "License/attribution"
+    ],
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Shader/DamageZone.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Shader/Legacy/DamageZone.shader": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/PolygonZombies/Shaders/POLYGON_Zombies.shader": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Scripts/WeatherControl.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Scripts/Editor/ReplaceShaders.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Clouds.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Foliage.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/noiseTest.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Refractive_Transparent.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner_Simple.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner_Transparent.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyFoliage_customGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyGlacier_customGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyPannerOpaque_customGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyPannerTransparent_customGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyWater_customGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/depthCheckExtended.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/OceanWaveMask.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/TopDownProjection.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/TopDownProjectionNormal.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_SimpleRotate.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_SimpleTranslate.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_WaterBob.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Bloody.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Specular.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Specular_Bloody.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Decals.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_ParticlesLit.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_ParticlesUnlit.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Standard.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Ghost_Shader.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/PolygonShader.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/PolygonShaderTransparent.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Skybox_Generic.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SkyDome.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Triplanar_Basic.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonShaderGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShaderTransparent_UI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShader_UI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonTransparencyShaderGUI.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/DepthFade.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/ObjectYRotation.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/Panner.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SnowMask.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SplitTriplanar.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SplitTriplanarNormal.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/triplanarWorldTopMask.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/UVWithPan.shadersubgraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Scripts/SunshineEyeController.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Shaders/PalmCity_Decals.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Shaders/PalmCity_Metallic.shadergraph": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/SyntyPackageHelper.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/SyntyPackageHelperConfig.cs": [
+      "Protected code, shader source, editor UI or compiled library"
+    ],
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/ShaderGraph.asset": [
+      "Build/open scene, preloaded asset, Addressables entry or discovered editor config"
+    ],
+    "Packages/com.unity.shadergraph/Editor/ShaderGraphProjectSettings.cs": [
+      "ProjectSettings GUID reference: ShaderGraphSettings.asset"
+    ],
+    "Packages/com.unity.render-pipelines.universal/Editor/DefaultScene/UniversalProjectSettings.cs": [
+      "ProjectSettings GUID reference: URPProjectSettings.asset"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Oxanium-Bold SDF.asset": [
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs",
+      "MenuSceneSetup evaluated constant/concatenated asset path"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Popup/Popup_Frame01_White1.png": [
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs",
+      "MenuSceneSetup evaluated constant/concatenated asset path"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Button_Custom/Btn_TextButton_Square01_White1.png": [
+      "Code path: Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs",
+      "MenuSceneSetup evaluated constant/concatenated asset path"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_LanguageFlag/Icon_LanguageFlag_Small01_Eng.png": [
+      "MenuSceneSetup evaluated constant/concatenated asset path"
+    ],
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_LanguageFlag/Icon_LanguageFlag_Small01_Jpn.png": [
+      "MenuSceneSetup evaluated constant/concatenated asset path"
+    ]
+  },
+  "reached_from": {
+    "Assets/InputSystem_Actions.cs": null,
+    "Assets/InputSystem_Actions.inputactions": null,
+    "Assets/AddressableAssetsData/AddressableAssetSettings.asset": null,
+    "Assets/AddressableAssetsData/DefaultObject.asset": null,
+    "Assets/AddressableAssetsData/ProfileDataSourceSettings.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Asset-Tables-English (en).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Asset-Tables-Japanese (ja).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-English (en).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Japanese (ja).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-Locales.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Japanese (ja).asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-Japanese (ja)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-English (en)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Japanese (ja)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Assets-Shared_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Locales_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_BundledAssetGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_ContentUpdateGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Japanese (ja)_LocalizationGroupSchema.asset": null,
+    "Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset": null,
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset": null,
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset": null,
+    "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset": null,
+    "Assets/AddressableAssetsData/Windows/addressables_content_state.bin": null,
+    "Assets/Game/Localization/English (en).asset": null,
+    "Assets/Game/Localization/Japanese (ja).asset": null,
+    "Assets/Game/Localization/Localization Settings.asset": null,
+    "Assets/Game/Localization/MenuAssets Shared Data.asset": null,
+    "Assets/Game/Localization/MenuAssets.asset": null,
+    "Assets/Game/Localization/MenuAssets_en.asset": null,
+    "Assets/Game/Localization/MenuAssets_ja.asset": null,
+    "Assets/Game/Localization/StringTable Shared Data.asset": null,
+    "Assets/Game/Localization/StringTable.asset": null,
+    "Assets/Game/Localization/StringTable_en.asset": null,
+    "Assets/Game/Localization/StringTable_ja.asset": null,
+    "Assets/Game/Prefabs/Core/RootScope.prefab": null,
+    "Assets/Game/Prefabs/Drops/AutoRifleDrop.prefab": null,
+    "Assets/Game/Prefabs/Drops/PistolDrop.prefab": null,
+    "Assets/Game/Prefabs/Drops/ShotgunDrop.prefab": null,
+    "Assets/Game/Prefabs/Drops/WeaponDrop.prefab": null,
+    "Assets/Game/Prefabs/Enemies/EnemyBase.prefab": null,
+    "Assets/Game/Prefabs/Quests/QuestZone.prefab": null,
+    "Assets/Game/Prefabs/Sfx/SfxObject.prefab": null,
+    "Assets/Game/Prefabs/Vfx/BulletVfx.prefab": null,
+    "Assets/Game/Resources/Animations/Ch36_nonPBR@Walk Forward.fbx": null,
+    "Assets/Game/Resources/Animations/Grab Rifle From The Side And Put Back.anim": null,
+    "Assets/Game/Resources/Animations/Enemy/EnemyAnimationController.controller": null,
+    "Assets/Game/Resources/Animations/Enemy/Zombie Idle.fbx": null,
+    "Assets/Game/Resources/Animations/Enemy/Zombie Running.fbx": null,
+    "Assets/Game/Resources/Animations/Enemy/Zombie Walking.fbx": null,
+    "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller": null,
+    "Assets/Game/Resources/Animations/PlayerAnimation/UpperBody.mask": null,
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Grab Rifle From Behind Shoulder.fbx": null,
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Grab Rifle From The Side.fbx": null,
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Put Back Rifle Behind Shoulder.fbx": null,
+    "Assets/Game/Resources/Animations/Tes/Ch36_nonPBR@Put Back Rifle.fbx": null,
+    "Assets/Game/Resources/Animations/Tes/MixamoAvatar.asset": null,
+    "Assets/Game/Resources/Materials/AimLaser.mat": null,
+    "Assets/Game/Resources/Materials/Bullet.mat": null,
+    "Assets/Game/Resources/Models/Retro_Char_Base_Female.fbx": null,
+    "Assets/Game/Resources/Models/Enemies/Ch36_nonPBR@Zombie Attack.fbx": null,
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/Eve By J.Gonzales.fbx": null,
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_diffuse.png": null,
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_M.mat": null,
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_normal.png": null,
+    "Assets/Game/Resources/Models/Eve By J.Gonzales/SpacePirate_specular.png": null,
+    "Assets/Game/Resources/Models/Weapons/AchColorPalette.png": null,
+    "Assets/Game/Resources/Models/Weapons/FPistol.fbx": null,
+    "Assets/Game/Resources/Models/Weapons/ShotgunA.fbx": null,
+    "Assets/Game/ScriptableObject/Drops/Drop List SO.asset": null,
+    "Assets/Game/ScriptableObject/Enemies/Wanderer Enemy Config SO.asset": null,
+    "Assets/Game/ScriptableObject/Events/AmmoChangedEvent.asset": null,
+    "Assets/Game/ScriptableObject/Events/HealthChangedEvent.asset": null,
+    "Assets/Game/ScriptableObject/Events/HolsterWeaponEvent.asset": null,
+    "Assets/Game/ScriptableObject/Events/InteractTipEvent.asset": null,
+    "Assets/Game/ScriptableObject/Player/Player Config SO.asset": null,
+    "Assets/Game/ScriptableObject/Sfx/Audio Clips Data SO.asset": null,
+    "Assets/Game/ScriptableObject/Weapons/AutoRifle.asset": null,
+    "Assets/Game/ScriptableObject/Weapons/Pistol.asset": null,
+    "Assets/Game/ScriptableObject/Weapons/Shotgun.asset": null,
+    "Assets/Game/Scripts/Core/Bootstrap.cs": null,
+    "Assets/Game/Scripts/Core/BootstrapEntry.cs": null,
+    "Assets/Game/Scripts/Core/GameplaySceneInstaller.cs": null,
+    "Assets/Game/Scripts/Core/RootInstaller.cs": null,
+    "Assets/Game/Scripts/Drop/DropListSO.cs": null,
+    "Assets/Game/Scripts/Drop/DropService.cs": null,
+    "Assets/Game/Scripts/Events/BoolEvent.cs": null,
+    "Assets/Game/Scripts/Events/IntIntEvent.cs": null,
+    "Assets/Game/Scripts/Input/InputService.cs": null,
+    "Assets/Game/Scripts/Input/PointerWorldProjector.cs": null,
+    "Assets/Game/Scripts/Interact/IInteractable.cs": null,
+    "Assets/Game/Scripts/Interact/IInteractor.cs": null,
+    "Assets/Game/Scripts/Pool/Pool.cs": null,
+    "Assets/Game/Scripts/Pool/PoolService.cs": null,
+    "Assets/Game/Scripts/Quest/QuestManager.cs": null,
+    "Assets/Game/Scripts/Quest/QuestZone.cs": null,
+    "Assets/Game/Scripts/Sfx/AudioClipsDataSO.cs": null,
+    "Assets/Game/Scripts/Sfx/AudioService.cs": null,
+    "Assets/Game/Scripts/StateMachine/State.cs": null,
+    "Assets/Game/Scripts/StateMachine/StateMachine.cs": null,
+    "Assets/Game/Scripts/UI/LocaleButton.cs": null,
+    "Assets/Game/Scripts/UI/LocalizedMenuFont.cs": null,
+    "Assets/Game/Scripts/UI/MainMenuController.cs": null,
+    "Assets/Game/Scripts/UI/PlayerAmmoUI.cs": null,
+    "Assets/Game/Scripts/UI/PlayerHealthBarUI.cs": null,
+    "Assets/Game/Scripts/UI/SceneLoader.cs": null,
+    "Assets/Game/Scripts/UI/UIManager.cs": null,
+    "Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs": null,
+    "Assets/Game/Scripts/UI/Editor/SceneLoaderEditor.cs": null,
+    "Assets/Game/Scripts/Units/HealthComponent.cs": null,
+    "Assets/Game/Scripts/Units/RagdollController.cs": null,
+    "Assets/Game/Scripts/Units/SpawnerManager.cs": null,
+    "Assets/Game/Scripts/Units/SpawnZone.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyAnimatorController.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyAnimSet.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyConfigSO.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyContext.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyIntentProvider.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyRandomizer.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/EnemyRoot.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/AttackState.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/ChaseState.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/DeadState.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/EnemyBehaviourMachine.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/EnemyStateBase.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/IdleState.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/SeekState.cs": null,
+    "Assets/Game/Scripts/Units/Enemies/States/WanderState.cs": null,
+    "Assets/Game/Scripts/Units/Player/CharacterControllerMotor.cs": null,
+    "Assets/Game/Scripts/Units/Player/InteractController.cs": null,
+    "Assets/Game/Scripts/Units/Player/LeftHandTargetIK.cs": null,
+    "Assets/Game/Scripts/Units/Player/LookController.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerAnimatorController.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerConfigSO.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerContext.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerHealthComponent.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerIntentProvider.cs": null,
+    "Assets/Game/Scripts/Units/Player/PlayerRoot.cs": null,
+    "Assets/Game/Scripts/Units/Player/TurnInPlaceController.cs": null,
+    "Assets/Game/Scripts/Units/Player/WeaponAnimSet.cs": null,
+    "Assets/Game/Scripts/Units/Player/WeaponHandler.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/AimState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/DodgeState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/DrawState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/DropState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/FiringState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/FreeState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/HolsterState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/IdleState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/InteractState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/Interfaces.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/LocomotionMachine.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/PlayerStateBase.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/ReloadState.cs": null,
+    "Assets/Game/Scripts/Units/Player/States/StanceMachine.cs": null,
+    "Assets/Game/Scripts/Weapon/AutoRifleController.cs": null,
+    "Assets/Game/Scripts/Weapon/BulletVfxComponent.cs": null,
+    "Assets/Game/Scripts/Weapon/DropWeaponInfo.cs": null,
+    "Assets/Game/Scripts/Weapon/PistolController.cs": null,
+    "Assets/Game/Scripts/Weapon/ShotgunController.cs": null,
+    "Assets/Game/Scripts/Weapon/WeaponConfigSO.cs": null,
+    "Assets/Game/Scripts/Weapon/WeaponController.cs": null,
+    "Assets/Game/Scripts/Weapon/WeaponPickup.cs": null,
+    "Assets/Game/Sounds/GUNRif_SVD Dragunov 7.62×54R DESIGNED Single Shot Core Long_DRCA_DRAG_Stereo_05.wav": null,
+    "Assets/Game/Sounds/Kevin MacLeod - Dark Fog.mp3": null,
+    "Assets/Game/Sounds/sb_computations.mp3": null,
+    "Assets/Game/Sounds/SPAS-12_single.wav": null,
+    "Assets/Game/Tests/MenuFlowSmokeTest.cs": null,
+    "Assets/Game/UI/Art/MenuBackground.png": null,
+    "Assets/Game/UI/Fonts/MenuJapanese.asset": null,
+    "Assets/Game/UI/Fonts/MenuLatin.asset": null,
+    "Assets/Game/UI/Fonts/NotoSansCJKjp-Regular.otf": null,
+    "Assets/Game/UI/Fonts/OFL.txt": null,
+    "Assets/Plugins/PrimeTween/PrimeTweenInstaller.asset": null,
+    "Assets/Plugins/PrimeTween/internal/PrimeTween.Installer.asmdef": null,
+    "Assets/Plugins/PrimeTween/internal/PrimeTweenInstaller.cs": null,
+    "Assets/Resources/ReflexSettings.asset": null,
+    "Assets/Scenes/BootScene.unity": null,
+    "Assets/Scenes/GamePlayScene.unity": null,
+    "Assets/Scenes/MenuScene.unity": null,
+    "Assets/Scenes/TestScene.unity": null,
+    "Assets/Scenes/GamePlayScene/NavMesh-Desert_Ground.asset": null,
+    "Assets/Scenes/TestScene/NavMesh-NavMesh Surface.asset": null,
+    "Assets/Settings/DefaultVolumeProfile.asset": null,
+    "Assets/Settings/Mobile_Renderer.asset": null,
+    "Assets/Settings/Mobile_RPAsset.asset": null,
+    "Assets/Settings/PC_Renderer.asset": null,
+    "Assets/Settings/PC_RPAsset.asset": null,
+    "Assets/Settings/SampleSceneProfile.asset": null,
+    "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset": null,
+    "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt": null,
+    "Assets/TextMesh Pro/Fonts/LiberationSans.ttf": null,
+    "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt": null,
+    "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt": null,
+    "Assets/TextMesh Pro/Resources/TMP Settings.asset": null,
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat": null,
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset": null,
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat": null,
+    "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset": null,
+    "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset": null,
+    "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl": null,
+    "Assets/TextMesh Pro/Shaders/TMPro.cginc": null,
+    "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc": null,
+    "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc": null,
+    "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc": null,
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph": null,
+    "Assets/TextMesh Pro/Shaders/TMP_SDF.shader": null,
+    "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader": null,
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/ctrl_InjuredDropToFloor.controller": null,
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor.FBX": null,
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor_GetUp.FBX": null,
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor_Loop.FBX": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/CharacterItemEvent.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/Element.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/FollowCam.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/IndividualAnimationDisplay.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/MotionController.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/MultiAnimationDisplay.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/PackInfo.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/Spawner.cs": null,
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Scripts/SpawnIdentifier.cs": null,
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Shaders/Shader Graph/HS_Blend_CG.shadergraph": null,
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Shaders/Shader Graph/HS_LitFresnel.shadergraph": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Electrolize - OFL.txt": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Oxanium - OFL.txt": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/128/Icon_Copyright.Png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/256/Icon_Copyright.Png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/512/Icon_Copyright.Png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/64/Icon_Copyright.Png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard01.png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard01_White.png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_Icon/Icon_PictoIcon_NoticeBoard02.png": null,
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Shader/DamageZone.shadergraph": null,
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Shader/Legacy/DamageZone.shader": null,
+    "Assets/Thirdparty/Models/PolygonZombies/Shaders/POLYGON_Zombies.shader": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Scripts/WeatherControl.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Scripts/Editor/ReplaceShaders.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Clouds.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Foliage.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/noiseTest.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Refractive_Transparent.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner_Simple.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/TexturePanner_Transparent.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyFoliage_customGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyGlacier_customGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyPannerOpaque_customGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyPannerTransparent_customGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyWater_customGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/depthCheckExtended.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/OceanWaveMask.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/TopDownProjection.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/TopDownProjectionNormal.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_SimpleRotate.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_SimpleTranslate.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Scripts/Generic_WaterBob.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Bloody.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Specular.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Basic_Specular_Bloody.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Decals.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_ParticlesLit.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_ParticlesUnlit.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Standard.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Ghost_Shader.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/PolygonShader.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/PolygonShaderTransparent.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Skybox_Generic.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SkyDome.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Triplanar_Basic.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonShaderGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShaderTransparent_UI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShader_UI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonTransparencyShaderGUI.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/DepthFade.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/ObjectYRotation.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/Panner.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SnowMask.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SplitTriplanar.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/SplitTriplanarNormal.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/triplanarWorldTopMask.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/SubGraphs/UVWithPan.shadersubgraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Scripts/SunshineEyeController.cs": null,
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Shaders/PalmCity_Decals.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Shaders/PalmCity_Metallic.shadergraph": null,
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/SyntyPackageHelper.cs": null,
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/SyntyPackageHelperConfig.cs": null,
+    "Assets/Thirdparty/Models/Synty/SyntyPackageHelper/Editor/ShaderGraph.asset": null,
+    "Packages/com.unity.shadergraph/Editor/ShaderGraphProjectSettings.cs": null,
+    "Packages/com.unity.render-pipelines.universal/Editor/DefaultScene/UniversalProjectSettings.cs": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Oxanium-Bold SDF.asset": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Popup/Popup_Frame01_White1.png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Button_Custom/Btn_TextButton_Square01_White1.png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_LanguageFlag/Icon_LanguageFlag_Small01_Eng.png": null,
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Demo/Demo_LanguageFlag/Icon_LanguageFlag_Small01_Jpn.png": null,
+    "": "Assets/InputSystem_Actions.cs",
+    "Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs": "Assets/InputSystem_Actions.inputactions",
+    "Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionAsset.cs": "Assets/InputSystem_Actions.inputactions",
+    "Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionReference.cs": "Assets/InputSystem_Actions.inputactions",
+    "Packages/com.unity.addressables/Editor/Settings/AddressableAssetSettings.cs": "Assets/AddressableAssetsData/AddressableAssetSettings.asset",
+    "Packages/com.unity.addressables/Editor/AddressableAssetSettingsDefaultObject.cs": "Assets/AddressableAssetsData/DefaultObject.asset",
+    "Packages/com.unity.addressables/Editor/Settings/ProfileDataSourceSettings.cs": "Assets/AddressableAssetsData/ProfileDataSourceSettings.asset",
+    "Packages/com.unity.addressables/Editor/Settings/AddressableAssetGroup.cs": "Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset",
+    "Packages/com.unity.addressables/Editor/Settings/GroupSchemas/BundledAssetGroupSchema.cs": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset",
+    "Packages/com.unity.addressables/Editor/Settings/GroupSchemas/ContentUpdateGroupSchema.cs": "Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset",
+    "Packages/com.unity.localization/Editor/Addressables/LocalizationGroupSchema.cs": "Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-Asset-Tables-English (en)_LocalizationGroupSchema.asset",
+    "Packages/com.unity.addressables/Editor/Settings/AddressableAssetGroupTemplate.cs": "Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset",
+    "Packages/com.unity.addressables/Editor/Build/DataBuilders/BuildScriptFastMode.cs": "Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset",
+    "Packages/com.unity.addressables/Editor/Build/DataBuilders/BuildScriptPackedMode.cs": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset",
+    "Packages/com.unity.addressables/Editor/Build/DataBuilders/BuildScriptPackedPlayMode.cs": "Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset",
+    "Packages/com.unity.localization/Runtime/Locale.cs": "Assets/Game/Localization/English (en).asset",
+    "Packages/com.unity.localization/Runtime/Settings/LocalizationSettings.cs": "Assets/Game/Localization/Localization Settings.asset",
+    "Packages/com.unity.localization/Runtime/Tables/SharedTableData.cs": "Assets/Game/Localization/MenuAssets Shared Data.asset",
+    "Packages/com.unity.localization/Editor/Settings/AssetTableCollection.cs": "Assets/Game/Localization/MenuAssets.asset",
+    "Packages/com.unity.localization/Runtime/Tables/AssetTable.cs": "Assets/Game/Localization/MenuAssets_en.asset",
+    "Packages/com.unity.localization/Editor/Settings/StringTableCollection.cs": "Assets/Game/Localization/StringTable.asset",
+    "Packages/com.unity.localization/Runtime/Tables/StringTable.cs": "Assets/Game/Localization/StringTable_en.asset",
+    "Packages/com.gustavopsantos.reflex/Core/ContainerScope.cs": "Assets/Game/Prefabs/Core/RootScope.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab": "Assets/Game/Prefabs/Drops/AutoRifleDrop.prefab",
+    "Assets/Thirdparty/Hovl Studio/Map track markers VFX/Prefabs/Marker 8 Safe zone Loop.prefab": "Assets/Game/Prefabs/Drops/WeaponDrop.prefab",
+    "Assets/Thirdparty/Models/PolygonZombies/Materials/PolygonZombie_Texture_01_A.mat": "Assets/Game/Prefabs/Enemies/EnemyBase.prefab",
+    "Assets/Thirdparty/Models/PolygonZombies/Models/Zombies.fbx": "Assets/Game/Prefabs/Enemies/EnemyBase.prefab",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Models/PalmCityCharacters.fbx": "Assets/Game/Prefabs/Enemies/EnemyBase.prefab",
+    "Assets/Thirdparty/Hovl Studio/Map track markers VFX/Prefabs/Marker 3 Zone Loop.prefab": "Assets/Game/Prefabs/Quests/QuestZone.prefab",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader": "Assets/Game/Resources/Animations/Ch36_nonPBR@Walk Forward.fbx",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnLeft180.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnLeft45.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnLeft90.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnRight180.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnRight45.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnRight90.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunBackward.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunBackwardDiagonalLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunBackwardDiagonalRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunForwardDiagonalLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunForwardDiagonalRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunStrafeLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/RunStrafeRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/SprintForward.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkBackward.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkBackwardDiagonalLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkBackwardDiagonalRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkForward.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkForwardDiagonalLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkForwardDiagonalRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkStrafeLeft.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/WalkStrafeRight.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Rifle 8-Way Locomotion Pack/Ch36_nonPBR@Firing Rifle.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Rifle 8-Way Locomotion Pack/idle aiming.fbx": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Universal Animation Library[Standard]/Armature_Idle_Loop.anim": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Universal Animation Library[Standard]/Armature_Pistol_Aim_Neutral.anim": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Universal Animation Library[Standard]/Armature_Pistol_Idle_Loop.anim": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Universal Animation Library[Standard]/Armature_Pistol_Reload.anim": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Assets/Thirdparty/Universal Animation Library[Standard]/Armature_Pistol_Shoot.anim": "Assets/Game/Resources/Animations/PlayerAnimation/PlayerAnimatorController.controller",
+    "Packages/com.unity.render-pipelines.universal/Editor/AssetVersion.cs": "Assets/Game/Resources/Materials/AimLaser.mat",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader": "Assets/Game/Resources/Materials/AimLaser.mat",
+    "Packages/com.unity.ugui/Runtime/TMP/TMP_FontAsset.cs": "Assets/Game/UI/Fonts/MenuJapanese.asset",
+    "Packages/com.gustavopsantos.reflex/Configuration/ReflexSettings.cs": "Assets/Resources/ReflexSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalLightData.cs": "Assets/Scenes/BootScene.unity",
+    "Assets/BoldPixels/Assets/font/BoldPixels SDF.asset": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Icon_PictoIcons(x2)/128/Icon_Bullet_2.Png": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Sliders_Demo/Slider06_Color1_Frame.png": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Sliders_Demo/Slider06_Color2_FillArea.png": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Sliders_Demo/Slider06_Color3_FrontFrame.png": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Sliders_Demo/Slider06_Color_Fill_Red.png": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TireStack_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Tire_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Mat_01_B.mat": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_3.mat": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Veh_Car_Medium_01.fbx": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_GuardTower_Destroyed_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Plywood_Shed_Small_Destroyed_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Tent_Refugee_Damaged_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Group_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Small_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Straight_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Ground_Square_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Ground_Square_02.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Road_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_04.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_05.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_06.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Tree_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_DebrisPile_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_Vehicle_Debris_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_AmmoBox_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_Barrier_Base_Row_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_Crate_Stack_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_WeaponCase_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Barrier_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Chair_Folding_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Cone_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Fence_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_GasCan_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Generator_Small_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Light_Portable_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Makeshift_Table_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Rusted_Barrel_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Pickup_Small_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Weapons/SM_Wep_Pistol_01.prefab": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_B.mat": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Models/SM_Chr_Attach_Hair_15.fbx": "Assets/Scenes/GamePlayScene.unity",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Models/SM_Chr_Attach_Sunglasses_04.fbx": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ai.navigation/Runtime/NavMeshSurface.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Editor/Shapes/BallEffector.asset": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Editor/Shapes/BoxEffector.asset": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Runtime/AnimationRig/Constraints/MultiAimConstraint.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Runtime/AnimationRig/Constraints/TwoBoneIKConstraint.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Runtime/AnimationRig/Rig.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Runtime/AnimationRig/RigBuilder.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.animation.rigging/Runtime/Utils/BoneRenderer.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCamera.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.cinemachine/Runtime/Components/CinemachinePositionComposer.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/DefaultInputActions.inputactions": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/InputSystemUIInputModule.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.localization/Runtime/Component Localizers/LocalizeStringEvent.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.render-pipelines.core/Runtime/Volume/Volume.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.render-pipelines.universal/Runtime/UniversalAdditionalCameraData.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/CanvasScaler.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Mask.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Slider.cs": "Assets/Scenes/GamePlayScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/AspectRatioFitter.cs": "Assets/Scenes/MenuScene.unity",
+    "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/RawImage.cs": "Assets/Scenes/MenuScene.unity",
+    "Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Blue1.mat": "Assets/Scenes/TestScene.unity",
+    "Packages/com.unity.cinemachine/Runtime/Components/CinemachineFollow.cs": "Assets/Scenes/TestScene.unity",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat": "Assets/Scenes/TestScene.unity",
+    "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumesOptions.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Volume/VolumeProfile.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Bloom.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ChannelMixer.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ChromaticAberration.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorAdjustments.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorCurves.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ColorLookup.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/DepthOfField.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/FilmGrain.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/LensDistortion.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/LiftGammaGain.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/MotionBlur.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/PaniniProjection.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ScreenSpaceLensFlare.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/ShadowsMidtonesHighlights.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/SplitToning.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Tonemapping.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/Vignette.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Overrides/WhiteBalance.cs": "Assets/Settings/DefaultVolumeProfile.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset": "Assets/Settings/Mobile_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/UniversalRendererData.cs": "Assets/Settings/Mobile_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Debug/DebugReplacement.shader": "Assets/Settings/Mobile_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Debug/HDRDebugView.shader": "Assets/Settings/Mobile_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Debug/ProbeVolumeSamplingDebugPositionNormal.compute": "Assets/Settings/Mobile_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs": "Assets/Settings/Mobile_RPAsset.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png": "Assets/Settings/Mobile_RPAsset.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png": "Assets/Settings/Mobile_RPAsset.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/ScreenSpaceAmbientOcclusion.shader": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_0.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_1.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_2.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_3.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_4.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_5.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256/LDR_LLL1_6.png": "Assets/Settings/PC_Renderer.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeSubdivide.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VoxelizeScene.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeDebug.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeFragmentationDebug.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeNumbersDisplayTex.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeOffsetDebug.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeVolumeSamplingDebug.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/DebugWindowCommon.uss": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow.uss": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow.uxml": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Environment/EnvironmentImportanceSamplingBuild.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Meshes/6FaceSkyboxMesh.mesh": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Meshes/SkyboxMesh.mesh": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/BlitCookie.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/BlitCubemap.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/BuildLightGrid.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/SetAlphaChannel.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/DebugOccluder.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/DebugOcclusionTest.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferCopyKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceDataBufferUploadKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceOcclusionCullingKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceTransformUpdateKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/InstanceWindDataUpdateKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OccluderDepthPyramidKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven/OcclusionCullingDebug.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/STP/StpPreTaa.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/STP/StpSetup.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/STP/StpTaa.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/GeometryPool/GeometryPoolKernels.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities/CopyBuffer.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/CopyPositions.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/bit_histogram.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_reduce_part.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/block_scan.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/build_hlbvh.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/restructure_bvh.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels/scatter.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsTexture.compute": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders/VrsVisualization.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.core/Shaders/CoreCopy.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Editor/Volume/DefaultVolumeProfile.asset": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Decal/DBuffer/DBufferClear.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Lit-Default.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/OnTileUberPost.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipelineGlobalSettings.cs": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Light2D.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Projected.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Geometry.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Shadow-Sprite.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Geometry.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/2D/Shadow2D-Unshadow-Sprite.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/CameraMotionVectors.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree7.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/Bloom.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/BokehDepthOfField.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/CameraMotionBlur.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/FinalPost.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/GaussianDepthOfField.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareDataDriven.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LensFlareScreenSpace.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderHdr.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderLdr.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/PaniniProjection.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/ScalingSetup.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/StopNaN.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/TemporalAA.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/UberPost.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLit.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrass.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassBillboard.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/BlitHDROverlay.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/ClusterDeferred.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepth.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlit.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlitColorAndDepth.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Sampling.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/StencilDeferred.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Utils/StencilDitherMaskSeed.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMirrorView.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/XR/XRMotionVector.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Shaders/XR/XROcclusionMesh.shader": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/DebugFont.tga": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large01.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large02.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium01.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium02.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium03.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium04.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium05.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium06.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.render-pipelines.universal/Textures/SMAA/SearchTex.tga": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Packages/com.unity.ugui/Runtime/TMP/TMP_Settings.cs": "Assets/TextMesh Pro/Resources/TMP Settings.asset",
+    "Packages/com.unity.ugui/Runtime/TMP/TMP_StyleSheet.cs": "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+    "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphImporter.cs": "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+    "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphIndexedData.cs": "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+    "Packages/com.unity.shadergraph/Editor/Importers/ShaderGraphMetadata.cs": "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+    "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/UniversalMetadata.cs": "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph",
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Meshes/rig_MCUnity.fbx": "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Animations/Injured/MCU_am_InjuredBelly_DropToFloor.FBX",
+    "Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/BuiltInMetadata.cs": "Assets/Thirdparty/Hovl Studio/HSFiles/Shaders/Shader Graph/HS_Blend_CG.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Aurora_01.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Gradient_Aurora_01.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Gradient_Down_01.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Gradient_Line.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Aurora.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/CausticsFlipBook.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/LODNoise.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Noise_Small.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PNB_Core/Textures/Water_Refraction_Map 1.png": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/Water.shadergraph",
+    "Packages/com.unity.shadergraph/Editor/Data/SubGraph/SubGraphAsset.cs": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/depthCheckExtended.shadersubgraph",
+    "Packages/com.unity.shadergraph/Editor/Importers/ShaderSubGraphImporter.cs": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/depthCheckExtended.shadersubgraph",
+    "Packages/com.unity.shadergraph/Editor/Importers/ShaderSubGraphMetadata.cs": "Assets/Thirdparty/Models/Synty/PNB_Core/Shaders/SubGraphs/depthCheckExtended.shadersubgraph",
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Textures/HairMask.png": "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Standard.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Textures/SkinMask.png": "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Generic_Standard.shadergraph",
+    "Assets/Thirdparty/Models/Synty/PolygonGeneric/Textures/Sky_01.png": "Assets/Thirdparty/Models/Synty/PolygonGeneric/Shaders/Skybox_Generic.shadergraph",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/PolygonBattleRoyale_Wep_01.mat": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Wep_Rifle_Assault_03_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Wep_Rifle_Assault_03.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab",
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Materials/MarkersAtlas1bcg.mat": "Assets/Thirdparty/Hovl Studio/Map track markers VFX/Prefabs/Marker 8 Safe zone Loop.prefab",
+    "Assets/Thirdparty/Models/PolygonZombies/Textures/PolygonZombie_Blood.tga": "Assets/Thirdparty/Models/PolygonZombies/Materials/PolygonZombie_Texture_01_A.mat",
+    "Assets/Thirdparty/Models/PolygonZombies/Textures/PolygonZombie_Emissive.png": "Assets/Thirdparty/Models/PolygonZombies/Materials/PolygonZombie_Texture_01_A.mat",
+    "Assets/Thirdparty/Models/PolygonZombies/Textures/PolygonZombie_Texture_01_A.png": "Assets/Thirdparty/Models/PolygonZombies/Materials/PolygonZombie_Texture_01_A.mat",
+    "Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/AssetVersion.cs": "Assets/Thirdparty/Models/PolygonZombies/Materials/PolygonZombie_Texture_01_A.mat",
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Models/CylinderFromGround.fbx": "Assets/Thirdparty/Hovl Studio/Map track markers VFX/Prefabs/Marker 3 Zone Loop.prefab",
+    "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/Shared/Animators/OmniAnimationRigAvatarFixed.asset": "Assets/Thirdparty/Animations/Opsive/OmniAnimation/Packs/CoreLocomotion/Animations/Original/IdleTurnLeft180.fbx",
+    "Assets/BoldPixels/Assets/font/BoldPixels.ttf": "Assets/BoldPixels/Assets/font/BoldPixels SDF.asset",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/PolygonBattleRoyale_01_A.mat": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Env_Concrete_Base_01_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Env_Concrete_Base_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Prop_Container_01_Convex 1.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Prop_Container_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Container_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Prop_Pallet_01_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Prop_Pallet_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Pallet_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Prop_TireStack_01_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TireStack_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Prop_TireStack_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_TireStack_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Prop_Tire_01_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Tire_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Prop_Tire_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Props/SM_Prop_Tire_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Destroyed_01.mat": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/Convex/SM_Veh_Car_Destroyed_01_Convex.asset": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Veh_Car_Destroyed_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/Collision/SM_Veh_Truck_Destroyed_01_Collision.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Models/SM_Veh_Truck_Destroyed_01.fbx": "Assets/Thirdparty/Models/PolygonBattleRoyale/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/PolygonMilitary_Texture_01_A_Normals.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Mat_01_B.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/PolygonMilitary_Texture_01_B.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Mat_01_B.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Vehicles/PolygonMilitary_Land_Vehicles_03.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_3.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Mat_01_A.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_GuardTower_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionCustom/SM_Bld_GuardTower_Destroyed_01_Collision.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_GuardTower_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Bld_GuardTower_Destroyed_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_GuardTower_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionCustom/New Folder/SM_Bld_Plywood_Shed_Small_Destroyed_01_Collision.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Plywood_Shed_Small_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Bld_Plywood_Shed_Small_Destroyed_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Plywood_Shed_Small_Destroyed_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionCustom/New Folder/SM_Bld_Tent_Refugee_Damaged_01_Collision.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Tent_Refugee_Damaged_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Bld_Tent_Refugee_Damaged_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Buildings/SM_Bld_Tent_Refugee_Damaged_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Bush_Group_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Group_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Bush_Small_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Small_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Cactus_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_DirtRoad_Straight_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Straight_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Ground_Square_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Ground_Square_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Ground_Square_02.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Ground_Square_02.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Road_01.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Road_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Road_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Road_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Rock_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Rock_04.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_04.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Rock_05.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_05.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Rock_06.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Rock_06.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Env_Tree_01_Convex 2.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Tree_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Env_Tree_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Environment/SM_Env_Tree_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_DebrisPile_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_DebrisPile_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_DebrisPile_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_DebrisPile_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_Vehicle_Debris_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Vehicle_Debris_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_Vehicle_Debris_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Vehicle_Debris_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Debris/SM_Prop_Vehicle_Debris_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_AmmoBox_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_AmmoBox_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_AmmoBox_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_AmmoBox_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Barrier_Base_Row_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_Barrier_Base_Row_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Barrier_Base_Row_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_Barrier_Base_Row_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Crate_Stack_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_Crate_Stack_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_WeaponCase_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_WeaponCase_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_WeaponCase_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/Military/SM_Prop_WeaponCase_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Barrier_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Barrier_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Barrier_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Barrier_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Chair_Folding_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Chair_Folding_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Chair_Folding_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Chair_Folding_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Cone_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Cone_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Cone_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Cone_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/Misc/PolygonMilitary_Fence_Wire.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Fence_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Fence_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Fence_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Fence_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Fence_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_GasCan_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_GasCan_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_GasCan_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_GasCan_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Generator_Small_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Generator_Small_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Generator_Small_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Generator_Small_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Light_Portable_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Light_Portable_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Light_Portable_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Light_Portable_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Makeshift_Table_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Makeshift_Table_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Makeshift_Table_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Makeshift_Table_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Prop_Rusted_Barrel_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Rusted_Barrel_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Prop_Rusted_Barrel_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Props/SM_Prop_Rusted_Barrel_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Glass_01.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_1.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Medium_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/CollisionConvex/SM_Veh_Pickup_Small_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Pickup_Small_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Veh_Pickup_Small_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Vehicles/SM_Veh_Pickup_Small_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_01.mat": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Weapons/SM_Wep_Pistol_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Wep_Pistol_01.fbx": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Weapons/SM_Wep_Pistol_01.prefab",
+    "Assets/Thirdparty/Models/PolygonMilitary/Models/SM_Wep_Pistol_01_Convex.asset": "Assets/Thirdparty/Models/PolygonMilitary/Prefabs/Weapons/SM_Wep_Pistol_01.prefab",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Alts/PolygonPalmCity_01_A.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Alts/PolygonPalmCity_01_A_Normals.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Emissive/PolygonPalmCity_01_A_Emissive.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Metallic/PolygonPalmCity_03_Metallic.tga": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Misc/Hair_01_Mask.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Misc/Skin_01_Mask.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_C.mat": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_B.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Alts/PolygonPalmCity_01_B.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_B.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Emissive/PolygonPalmCity_01_B_Emissive.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_B.mat",
+    "Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Textures/prototype_512x512_blue1.png": "Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Blue1.mat",
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Materials/M_BodyL.mat": "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Meshes/rig_MCUnity.fbx",
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Materials/M_BodyR.mat": "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Meshes/rig_MCUnity.fbx",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Textures/Weapons/Wep_Skin_01.png": "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/PolygonBattleRoyale_Wep_01.mat",
+    "Assets/Thirdparty/Hovl Studio/HSFiles/Textures/MarkersAtlas1.png": "Assets/Thirdparty/Hovl Studio/HSFiles/Materials/MarkersAtlas1bcg.mat",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Texture_01_A.png": "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/PolygonBattleRoyale_01_A.mat",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_01_Emmision.png": "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/PolygonBattleRoyale_01_A.mat",
+    "Assets/Thirdparty/Models/PolygonBattleRoyale/Textures/PolygonBattleRoyale_Vehicles_01_Damaged.png": "Assets/Thirdparty/Models/PolygonBattleRoyale/Materials/Alts/PolygonBattleRoyale_Veh_Destroyed_01.mat",
+    "Packages/com.unity.render-pipelines.universal/Shaders/Unlit.shader": "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Mat_01_A.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Road_Texture.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/Misc/PolygonMilitary_Mat_Road_01.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Air_Vehicle_Burnt.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Fence_Alpha.tga": "Assets/Thirdparty/Models/PolygonMilitary/Materials/Misc/PolygonMilitary_Fence_Wire.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/PolygonMilitary_Texture_01_A.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/PolygonMilitary_Glass_01.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Vehicles/PolygonMilitary_Land_Vehicles_01.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_1.mat",
+    "Assets/Thirdparty/Models/PolygonMilitary/Textures/Weapons/PolygonMilitary_Weapons_01.png": "Assets/Thirdparty/Models/PolygonMilitary/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_01.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_02_A.mat": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_C.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Alts/PolygonPalmCity_01_C.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_C.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Emissive/PolygonPalmCity_01_C_Emissive.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_01_C.mat",
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Textures/T_BodyL_Color.png": "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Materials/M_BodyL.mat",
+    "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Textures/T_BodyR_Color.png": "Assets/Thirdparty/Animations/MoCapCentral/MC_Sample/Demo/Characters/MCUnity/Materials/M_BodyR.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Alts/PolygonPalmCity_02_A.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_02_A.mat",
+    "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Textures/Emissive/PolygonPalmCity_02_A_Emissive.png": "Assets/Thirdparty/Models/Synty/PolygonPalmCity/Materials/Alts/PolygonPalmCity_02_A.mat"
+  },
+  "code_literal_hits": {
+    "Assets/InputSystem_Actions.cs": [
+      "Assets/InputSystem_Actions.inputactions"
+    ],
+    "Assets/Game/Scripts/UI/Editor/MenuSceneSetup.cs": [
+      "Assets/Game/UI/Art/MenuBackground.png",
+      "Assets/Game/UI/Fonts/MenuJapanese.asset",
+      "Assets/Game/UI/Fonts/MenuLatin.asset",
+      "Assets/Game/UI/Fonts/NotoSansCJKjp-Regular.otf",
+      "Assets/Scenes/GamePlayScene.unity",
+      "Assets/Scenes/MenuScene.unity",
+      "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Fonts/Oxanium-Bold SDF.asset",
+      "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Button_Custom/Btn_TextButton_Square01_White1.png",
+      "Assets/Thirdparty/Layer Lab/GUI Pro-SurvivalClean/ResourcesData/Sprites/Components/Popup/Popup_Frame01_White1.png"
+    ],
+    "Assets/Plugins/PrimeTween/internal/PrimeTweenInstaller.cs": [
+      "Assets/Plugins/PrimeTween/PrimeTweenInstaller.asset"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc"
+    ],
+    "Assets/TextMesh Pro/Shaders/TMP_SDF.shader": [
+      "Assets/TextMesh Pro/Shaders/TMPro.cginc",
+      "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+    ]
+  }
+}
