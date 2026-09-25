@@ -1586,6 +1586,7 @@ GameObject:
   - component: {fileID: 1714257992}
   - component: {fileID: 1714257991}
   - component: {fileID: 1714257990}
+  - component: {fileID: 1714257993}
   m_Layer: 0
   m_Name: GameTitle
   m_TagString: Untagged
@@ -1752,6 +1753,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714257988}
   m_CullTransparentMesh: 1
+--- !u!114 &1714257993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714257988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08932dce665be004a8b5857886daf7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ach.UI.LocalizedMenuFont
+  font:
+    m_TableReference:
+      m_TableCollectionName: MenuAssets
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: Menu.Font
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
 --- !u!1 &1721373476
 GameObject:
   m_ObjectHideFlags: 0

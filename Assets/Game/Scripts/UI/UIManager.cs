@@ -1,4 +1,3 @@
-using Ach.Event;
 using Ach.Events;
 using Ach.Input;
 using PrimeTween;
@@ -7,14 +6,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
+using UnityEngine.UI;
 
 namespace Ach.UI
 {
-    public class UIManager : MonoBehaviour
+    public sealed class UIManager : MonoBehaviour
     {
-        [Header("Pause menu")]
         [SerializeField] private GameObject pauseMenu;
-        [SerializeField] private UnityEngine.UI.Button continueButton;
+        [SerializeField] private Button continueButton;
         [SerializeField] private GameObject loseMenu;
         
         [Inject] private IInputService _input;
@@ -47,10 +46,26 @@ namespace Ach.UI
 
             playerDeathEvent.OnEvent += PlayerDeathHandler;
         }
+        
+        private void Start()
+        {
+            _questTipY = questTip.anchoredPosition.y;
+            _questTipY = questTip.anchoredPosition.y;
+            SetGameplayCursor();
+        }
+
+        private void SetGameplayCursor()
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Confined;
+        }
+
 
         private void PlayerDeathHandler()
         {
             loseMenu.SetActive(true);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         private void OnEnable()
@@ -109,10 +124,7 @@ namespace Ach.UI
             _input.SetGameplayEnabled(false);
         }
 
-        private void Start()
-        {
-            _questTipY = questTip.anchoredPosition.y;
-        }
+
 
         private void InteractTipHandler(bool active)
         {

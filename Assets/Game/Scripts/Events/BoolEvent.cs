@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Ach.Event
+namespace Ach.Events
 {
     [CreateAssetMenu(menuName = "SO/Events/BoolEvent")]
     public class BoolEvent : ScriptableObject

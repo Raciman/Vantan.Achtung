@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Ach.Drop;
-using Ach.Event;
 using Ach.Events;
 using Ach.Weapons;
 using Reflex.Attributes;

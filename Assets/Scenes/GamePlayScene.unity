@@ -8377,6 +8377,7 @@ GameObject:
   - component: {fileID: 625993983}
   - component: {fileID: 625993982}
   - component: {fileID: 625993984}
+  - component: {fileID: 625993985}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -8543,6 +8544,26 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!114 &625993985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625993980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08932dce665be004a8b5857886daf7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ach.UI.LocalizedMenuFont
+  font:
+    m_TableReference:
+      m_TableCollectionName: MenuAssets
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HUD.Font
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
 --- !u!1001 &628149348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10705,6 +10726,7 @@ GameObject:
   - component: {fileID: 834114057}
   - component: {fileID: 834114056}
   - component: {fileID: 834114058}
+  - component: {fileID: 834114059}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -10871,6 +10893,26 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!114 &834114059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834114054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08932dce665be004a8b5857886daf7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ach.UI.LocalizedMenuFont
+  font:
+    m_TableReference:
+      m_TableCollectionName: MenuAssets
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HUD.Font
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
 --- !u!1 &835182795
 GameObject:
   m_ObjectHideFlags: 0
@@ -19115,10 +19157,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Components.LocalizeStringEvent
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: StringTable
+      m_TableCollectionName: GUID:6c574cc7c1759f54c91e3148169a7be4
     m_TableEntryReference:
-      m_KeyId: 0
-      m_Key: Menu.Paused
+      m_KeyId: 54228826267648
+      m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
