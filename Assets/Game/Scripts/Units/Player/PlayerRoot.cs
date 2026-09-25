@@ -42,6 +42,9 @@ namespace Ach.Units.Player
 
         private void Update()
         {
+            if (!_input.GameplayEnabled)
+                return;
+
             float dt = Time.deltaTime;
             
             _intent.Tick(dt);

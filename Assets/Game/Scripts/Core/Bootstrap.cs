@@ -39,7 +39,7 @@ namespace Ach
                 IsInitialized = true;
                 //SetLanguage();
                 
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene("MenuScene");
             }
     }
 }

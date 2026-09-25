@@ -34,6 +34,38 @@ MonoBehaviour:
     m_Localized: Completed
     m_Metadata:
       m_Items: []
+  - m_Id: 26522633969664
+    m_Localized: ACHTUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912704
+    m_Localized: MAIN MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912705
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912706
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912707
+    m_Localized: PAUSED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912708
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912709
+    m_Localized: RETURN TO MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912710
+    m_Localized: ESC  /  RESUME
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

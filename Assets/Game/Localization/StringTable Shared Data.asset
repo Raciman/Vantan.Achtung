@@ -31,6 +31,38 @@ MonoBehaviour:
     m_Key: quest3
     m_Metadata:
       m_Items: []
+  - m_Id: 26522633969664
+    m_Key: Menu.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912704
+    m_Key: Menu.Main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912705
+    m_Key: Menu.Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912706
+    m_Key: Menu.Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912707
+    m_Key: Menu.Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912708
+    m_Key: Menu.Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912709
+    m_Key: Menu.Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26522675912710
+    m_Key: Menu.ResumeHint
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

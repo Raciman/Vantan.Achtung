@@ -1,6 +1,9 @@
 using Ach.Event;
+using Ach.Input;
 using PrimeTween;
+using Reflex.Attributes;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
 
@@ -8,6 +11,15 @@ namespace Ach.UI
 {
     public class UIManager : MonoBehaviour
     {
+        [Header("Pause menu")]
+        [SerializeField] private GameObject pauseMenu;
+        [SerializeField] private UnityEngine.UI.Button continueButton;
+        [Inject] private IInputService _input;
+        private float _previousTimeScale;
+        private CursorLockMode _previousCursorLock;
+        private bool _previousCursorVisible;
+        public bool IsMenuOpen { get; private set; }
+
         [SerializeField] private GameObject interactTip;
         [SerializeField] private BoolEvent interactTipEvent;
         
@@ -21,10 +33,68 @@ namespace Ach.UI
         
         private void Awake()
         {
+            if (pauseMenu != null)
+                pauseMenu.SetActive(false);
 
             interactTip.SetActive(false);
             interactTipEvent.OnEvent += InteractTipHandler;
             questTip.gameObject.SetActive(false);
+        }
+
+        private void OnEnable()
+        {
+            _input.PausePressed += ToggleMenu;
+            _input.SetGameplayEnabled(true);
+        }
+
+        public void ToggleMenu()
+        {
+            if (pauseMenu == null)
+                return;
+            if (IsMenuOpen)
+            {
+                CloseMenu();
+                return;
+            }
+            _previousTimeScale = Time.timeScale;
+            _previousCursorLock = Cursor.lockState;
+            _previousCursorVisible = Cursor.visible;
+            IsMenuOpen = true;
+            _input.SetGameplayEnabled(false);
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            pauseMenu.SetActive(true);
+            if (continueButton != null && EventSystem.current != null)
+                EventSystem.current.SetSelectedGameObject(continueButton.gameObject);
+        }
+
+        public void CloseMenu()
+        {
+            if (!IsMenuOpen)
+                return;
+            RestorePauseState();
+            _input.SetGameplayEnabled(true);
+        }
+
+        private void RestorePauseState()
+        {
+            IsMenuOpen = false;
+            if (pauseMenu != null)
+                pauseMenu.SetActive(false);
+            Time.timeScale = _previousTimeScale;
+            Cursor.lockState = _previousCursorLock;
+            Cursor.visible = _previousCursorVisible;
+            if (EventSystem.current != null)
+                EventSystem.current.SetSelectedGameObject(null);
+        }
+
+        private void OnDisable()
+        {
+            _input.PausePressed -= ToggleMenu;
+            if (IsMenuOpen)
+                RestorePauseState();
+            _input.SetGameplayEnabled(false);
         }
 
         private void Start()

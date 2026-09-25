@@ -73,6 +73,14 @@ namespace Ach.Units.Player
             _input.ReloadPressed += ReloadHandler;
             _input.InteractPressed += InteractHandler;
             _input.DropPressed += DropHandler;
+            _input.GameplayInputDisabled += ClearBufferedInput;
+        }
+
+        private void ClearBufferedInput()
+        {
+            _fireAt = _reloadAt = _switchAt = _interactAt = _dropAt = float.NegativeInfinity;
+            MoveDirection = Vector3.zero;
+            WantsAim = WantsSprint = FireHeld = WantsDodge = false;
         }
 
         private void DropHandler() => _dropAt = Time.time;
@@ -122,6 +130,7 @@ namespace Ach.Units.Player
             _input.ReloadPressed -= ReloadHandler;
             _input.InteractPressed -= InteractHandler;
             _input.DropPressed -= DropHandler;
+            _input.GameplayInputDisabled -= ClearBufferedInput;
 
         }
     }
