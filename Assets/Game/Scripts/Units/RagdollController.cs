@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Ach.Units
 {
-    public class RagdollController : MonoBehaviour
+    public sealed class RagdollController : MonoBehaviour
     {
         [SerializeField] private Collider aliveCollider;
         private Rigidbody[] _bodies;

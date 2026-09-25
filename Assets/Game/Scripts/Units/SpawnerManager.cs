@@ -5,24 +5,31 @@ using UnityEngine;
 
 namespace Ach.Units.Enemies
 {
-    public class SpawnerManager : MonoBehaviour
+    public sealed class SpawnerManager : MonoBehaviour
     {
         [SerializeField] private HealthComponent player;
         [SerializeField] private EnemyRoot enemyPrefab;
         
-        [SerializeField] private Transform spawnPoint;
+        [SerializeField] private SpawnZone[] spawnZones;
 
         [Inject] private PoolService _pool;
 
 
         private void Awake()
         {
-            for (int i = 0; i < 10; i++)
+            foreach (var zone in spawnZones)
             {
-                var instance = _pool.Get(enemyPrefab,  spawnPoint.position, Quaternion.identity);
-                instance.Init(player);
+                for (int i = 0; i < zone.EnemiesToSpawn; i++)
+                {
+                    if(zone.TryGetPoint(out var point))
+                    {
+                        var instance = _pool.Get(enemyPrefab, point, Quaternion.identity);
+                        instance.Init(player);
+                    }
+                }
 
             }
+
         }
     }
 }
