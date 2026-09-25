@@ -19,6 +19,10 @@ namespace Ach.Units.Enemies
         [field: SerializeField] public float AttackDuration { get; private set; }
         [field: SerializeField] public float AttackHitTime { get; private set; }
         
+        //Move
+        [field: SerializeField] public float WalkSpeed { get; private set; }
+        [field: SerializeField] public float RunSpeed { get; private set; }
+
         
     }
 }

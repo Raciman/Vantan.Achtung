@@ -1,4 +1,5 @@
 
+using System;
 using RPool;
 using UnityEngine;
 using UnityEngine.AI;
@@ -20,10 +21,10 @@ namespace Ach.Units.Enemies
         private EnemyIntentProvider  _intent;
         private EnemyBehaviourMachine _behaviourMachine;
 
-        public void Init(IDamageable player)
+        public void Init(HealthComponent player)
         {
             
-            _intent = new EnemyIntentProvider(transform, player.Transform, obstacleMask);
+            _intent = new EnemyIntentProvider(transform, player.Transform, health, obstacleMask);
             _context = new EnemyContext(_intent, config, transform.position, agent, player, animator,
                 health, ragdoll);
             
@@ -55,6 +56,11 @@ namespace Ach.Units.Enemies
         public void OnRelease()
         {
             
+        }
+
+        private void OnDestroy()
+        {
+            _intent.Dispose();
         }
     }
 }

@@ -14,7 +14,8 @@ namespace Ach.Units.Enemies
         public override void Enter()
         {
             IsCompleted = false;
-            
+
+            Ctx.Agent.speed = Ctx.Config.WalkSpeed;
             var randomPoint2D = Random.insideUnitCircle;
             var randomPoint3D = new Vector3(randomPoint2D.x, 0f, randomPoint2D.y);
             Vector3 randomPoint = Ctx.HomePosition + randomPoint3D * Ctx.Config.WanderRadius;

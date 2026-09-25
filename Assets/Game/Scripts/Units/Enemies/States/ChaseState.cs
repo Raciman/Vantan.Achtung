@@ -9,7 +9,8 @@ namespace Ach.Units.Enemies
 
         public override void Enter()
         {
-
+            Ctx.Intent.ConsumeHit();
+            Ctx.Agent.speed = Ctx.Config.RunSpeed;
         }
 
         public override void Tick(float deltaTime)

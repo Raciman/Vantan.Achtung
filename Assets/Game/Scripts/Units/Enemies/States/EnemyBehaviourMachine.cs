@@ -1,4 +1,3 @@
-using System;
 using Ach.FSM;
 using UnityEngine;
 
@@ -32,17 +31,16 @@ namespace Ach.Units.Enemies
             bool SeesTarget()
                 => context.Intent.DistanceToTarget < context.Config.TargetDetectRadius
                    && context.Intent.CanSeeTarget;
-
-
-
+            bool ShouldChase() => SeesTarget() || context.Intent.WasHit;
+            
             //Wander
             _stateMachine.AddTransition(_idleState, _wanderState, () => _idleState.IsCompleted);
             _stateMachine.AddTransition(_wanderState, _idleState, () => _wanderState.IsCompleted);
             
             //Chase
-            _stateMachine.AddTransition(_idleState, _chaseState, SeesTarget);
-            _stateMachine.AddTransition(_wanderState, _chaseState, SeesTarget);
-            _stateMachine.AddTransition(_seekState, _chaseState, SeesTarget);
+            _stateMachine.AddTransition(_idleState, _chaseState, ShouldChase);
+            _stateMachine.AddTransition(_wanderState, _chaseState, ShouldChase);
+            _stateMachine.AddTransition(_seekState, _chaseState, ShouldChase);
             _stateMachine.AddTransition(_chaseState, _seekState, () => 
                 context.Intent.DistanceToTarget > context.Config.TargetLoseRadius
                 || context.Intent.HasLostTarget);

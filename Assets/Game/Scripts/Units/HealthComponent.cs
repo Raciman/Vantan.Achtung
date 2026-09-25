@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Ach.Units
@@ -12,6 +13,7 @@ namespace Ach.Units
     {
         [SerializeField] protected int maxHealth = 100;
 
+        public event Action Damaged;
         protected int Health;
         public Transform Transform => gameObject.transform;
         public bool IsDead => Health <= 0;
@@ -23,19 +25,18 @@ namespace Ach.Units
         
         public virtual void ApplyDamage(int damage)
         {
-            if(damage > Health)
-                damage = Health;
+            if(IsDead)  return;
             
+            damage = Mathf.Min(damage, Health);
             Health -= damage;
-
-            Debug.Log(name + " current HP " + Health);
-            if (Health <= 0)
+            Damaged?.Invoke();
+            if (IsDead)
                 DeathHandler();
         }
 
         private void DeathHandler()
         {
-            Debug.Log(name + "Death");
+            
         }
     }
     

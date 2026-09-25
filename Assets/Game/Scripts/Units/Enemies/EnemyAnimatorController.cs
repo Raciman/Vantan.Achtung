@@ -5,7 +5,7 @@ namespace Ach.Units.Enemies
 {
     public class EnemyAnimatorController : MonoBehaviour
     {
-        private static readonly int IsMoving = Animator.StringToHash("IsMoving");
+        private static readonly int Speed = Animator.StringToHash("Speed");
         private static readonly int Attack = Animator.StringToHash("Attack");
         private static readonly int ActionSpeed = Animator.StringToHash("ActionSpeed");
 
@@ -22,8 +22,7 @@ namespace Ach.Units.Enemies
         
         public void Tick(float deltaTime)
         {
-            bool isMoving  = agent.velocity.magnitude >= 0.1f;
-            animator.SetBool(IsMoving, isMoving);
+            animator.SetFloat(Speed, agent.velocity.magnitude, 0.1f, deltaTime);
         }
 
         public void PlayAttack()

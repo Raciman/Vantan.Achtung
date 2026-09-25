@@ -18,8 +18,10 @@ MonoBehaviour:
   <TargetLoseRadius>k__BackingField: 5
   <Damage>k__BackingField: 5
   <AttackRange>k__BackingField: 1
-  <AttackHitRange>k__BackingField: 1
-  <AttackAngle>k__BackingField: 20
+  <AttackHitRange>k__BackingField: 1.3
+  <AttackAngle>k__BackingField: 25
   <AttackCooldown>k__BackingField: 0.1
-  <AttackDuration>k__BackingField: 2
+  <AttackDuration>k__BackingField: 1.5
   <AttackHitTime>k__BackingField: 0.7
+  <WalkSpeed>k__BackingField: 1
+  <RunSpeed>k__BackingField: 2.5
