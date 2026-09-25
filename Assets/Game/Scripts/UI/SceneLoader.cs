@@ -5,7 +5,7 @@ namespace Ach.UI
 {
     public sealed class SceneLoader : MonoBehaviour
     {
-        [SerializeField, Min(0), Tooltip("Scene ID (build index) from the enabled Build Settings scenes.")]
+        [SerializeField]
         private int sceneId;
         private bool _isLoading;
         public int SceneId => sceneId;

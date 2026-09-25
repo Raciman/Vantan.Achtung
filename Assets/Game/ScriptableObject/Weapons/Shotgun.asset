@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shotgun
   m_EditorClassIdentifier: Assembly-CSharp::Ach.Weapons.WeaponConfigSO
   <Mode>k__BackingField: 0
-  <Damage>k__BackingField: 15
+  <Damage>k__BackingField: 35
   <Range>k__BackingField: 50
   <ReloadDuration>k__BackingField: 3
   <Spread>k__BackingField: 60
@@ -24,3 +24,4 @@ MonoBehaviour:
   <BulletVfx>k__BackingField: {fileID: 5053556067470176471, guid: 6bf146837a3ce804298dad61b5f59df0, type: 3}
   <BulletVfxSpeed>k__BackingField: 50
   <AnimLayer>k__BackingField: 2
+  <SfxType>k__BackingField: 0

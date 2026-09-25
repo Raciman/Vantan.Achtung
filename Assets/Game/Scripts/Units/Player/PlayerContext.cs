@@ -13,11 +13,13 @@ namespace Ach.Units.Player
         
         public PlayerConfigSO Config { get; private set; }
         public InteractController Interact { get; private set; }
+        public RagdollController Ragdoll { get; private set; }
+        public HealthComponent Health { get; private set; }
         
         
         public PlayerContext(IPlayerIntent intent, CharacterControllerMotor motor, 
             LookController look, PlayerAnimatorController animator, WeaponHandler weaponHandler, 
-            PlayerConfigSO config, InteractController interact)
+            PlayerConfigSO config, InteractController interact, RagdollController ragdoll, HealthComponent health)
         {
             Intent = intent;
             Motor = motor;
@@ -26,6 +28,8 @@ namespace Ach.Units.Player
             Weapon = weaponHandler;
             Config = config;
             Interact = interact;
+            Ragdoll = ragdoll;
+            Health = health;
         }
 
         public void BuildMachines(IStanceView stance, ILocomotionView locomotion)

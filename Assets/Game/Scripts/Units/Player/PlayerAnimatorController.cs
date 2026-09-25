@@ -140,6 +140,8 @@ namespace Ach.Units.Player
             if (!CanPlayLayerAnimation) return;
             CrossFade(_set.Aim, 0f, 0f);
         }
+
+        public void SwitchAnimator(bool active) => animator.enabled = active;
     }
 }
 

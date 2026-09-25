@@ -1,4 +1,5 @@
 using Ach.Event;
+using Ach.Events;
 using Ach.Input;
 using PrimeTween;
 using Reflex.Attributes;
@@ -14,6 +15,8 @@ namespace Ach.UI
         [Header("Pause menu")]
         [SerializeField] private GameObject pauseMenu;
         [SerializeField] private UnityEngine.UI.Button continueButton;
+        [SerializeField] private GameObject loseMenu;
+        
         [Inject] private IInputService _input;
         private float _previousTimeScale;
         private CursorLockMode _previousCursorLock;
@@ -31,6 +34,8 @@ namespace Ach.UI
         private float _questTipY;
         private Sequence _questTipSequence;
         
+        [SerializeField] private NoParamsEvent playerDeathEvent;
+        
         private void Awake()
         {
             if (pauseMenu != null)
@@ -39,6 +44,13 @@ namespace Ach.UI
             interactTip.SetActive(false);
             interactTipEvent.OnEvent += InteractTipHandler;
             questTip.gameObject.SetActive(false);
+
+            playerDeathEvent.OnEvent += PlayerDeathHandler;
+        }
+
+        private void PlayerDeathHandler()
+        {
+            loseMenu.SetActive(true);
         }
 
         private void OnEnable()
@@ -151,7 +163,8 @@ namespace Ach.UI
         private void OnDestroy()
         {
             interactTipEvent.OnEvent -= InteractTipHandler;
-            
+            playerDeathEvent.OnEvent -= PlayerDeathHandler;
+
             if (_questTipSequence.isAlive)
                 _questTipSequence.Stop();
 

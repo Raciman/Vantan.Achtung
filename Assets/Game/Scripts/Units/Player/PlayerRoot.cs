@@ -15,6 +15,8 @@ namespace Ach.Units.Player
         [SerializeField] private TurnInPlaceController turnInPlace;
         [SerializeField] private WeaponHandler weaponHandler;
         [SerializeField] private InteractController interact;
+        [SerializeField] private RagdollController ragdoll;
+        [SerializeField] private PlayerHealthComponent health;
 
         private PlayerIntentProvider _intent;
         private LocomotionMachine _locomotion;
@@ -26,7 +28,8 @@ namespace Ach.Units.Player
         private void Awake()
         {
             _intent = new PlayerIntentProvider(_input, transform, camera);
-            var ctx = new PlayerContext(_intent, motor, look, animator, weaponHandler, config, interact);
+            var ctx = new PlayerContext(_intent, motor, look, animator, weaponHandler, config, 
+                interact, ragdoll, health);
 
             _locomotion = new LocomotionMachine(ctx);
             _stance = new StanceMachine(ctx);

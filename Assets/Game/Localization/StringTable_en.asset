@@ -26,10 +26,6 @@ MonoBehaviour:
     m_Localized: Return to the car
     m_Metadata:
       m_Items: []
-  - m_Id: 178973908992
-    m_Localized: New Game
-    m_Metadata:
-      m_Items: []
   - m_Id: 13876748689408
     m_Localized: Completed
     m_Metadata:
@@ -64,6 +60,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 26522675912710
     m_Localized: ESC  /  RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50068689068032
+    m_Localized: 'Press: E'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54228826267648
+    m_Localized: DEAD
     m_Metadata:
       m_Items: []
   references:

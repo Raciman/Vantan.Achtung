@@ -7,6 +7,7 @@ namespace Ach.Units
     {
         Transform Transform { get; }
         void ApplyDamage(int damage);
+        bool IsDead { get; }
     }
     
     public class HealthComponent : MonoBehaviour, IDamageable
@@ -34,7 +35,7 @@ namespace Ach.Units
                 DeathHandler();
         }
 
-        private void DeathHandler()
+        protected virtual void DeathHandler()
         {
             
         }

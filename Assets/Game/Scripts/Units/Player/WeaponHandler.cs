@@ -3,7 +3,6 @@ using System.Linq;
 using Ach.Drop;
 using Ach.Event;
 using Ach.Events;
-using Ach.Sfx;
 using Ach.Weapons;
 using Reflex.Attributes;
 using UnityEngine;
@@ -42,7 +41,6 @@ namespace Ach.Units.Player
         public void Init(IStanceView stance)
         {
             _stance = stance;
-            _equippedWeapons[1] = allWeapons[2];
         }
         
         private void Awake()

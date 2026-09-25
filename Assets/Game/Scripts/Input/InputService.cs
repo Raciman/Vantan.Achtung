@@ -75,11 +75,9 @@ namespace Ach.Input
         private void CheckFireReleased()
         {
 #if UNITY_EDITOR
-            // Editor updates read a separate device buffer; only gameplay can release this latch.
             if (InputState.currentUpdateType == InputUpdateType.Editor)
                 return;
 #endif
-            // Neither a held trigger nor the click closing a menu should become a shot.
             if (!GameplayEnabled || !_fireRequiresRelease || Time.frameCount <= _enabledFrame)
                 return;
             foreach (var control in _actions.Player.Attack.controls)

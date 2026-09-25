@@ -30,7 +30,7 @@ namespace Ach.Units.Enemies
 
             bool SeesTarget()
                 => context.Intent.DistanceToTarget < context.Config.TargetDetectRadius
-                   && context.Intent.CanSeeTarget;
+                   && context.Intent.CanSeeTarget && !context.Target.IsDead;
             bool ShouldChase() => SeesTarget() || context.Intent.WasHit;
             
             //Wander
@@ -38,6 +38,7 @@ namespace Ach.Units.Enemies
             _stateMachine.AddTransition(_wanderState, _idleState, () => _wanderState.IsCompleted);
             
             //Chase
+            _stateMachine.AddTransition(_chaseState, _idleState, () => context.Target.IsDead);  
             _stateMachine.AddTransition(_idleState, _chaseState, ShouldChase);
             _stateMachine.AddTransition(_wanderState, _chaseState, ShouldChase);
             _stateMachine.AddTransition(_seekState, _chaseState, ShouldChase);
@@ -48,7 +49,8 @@ namespace Ach.Units.Enemies
             //Attack
             _stateMachine.AddTransition(_chaseState, _attackState, () =>
                 context.Intent.DistanceToTarget < context.Config.AttackRange
-                && Time.time - _attackState.LastAttackTime >= context.Config.AttackCooldown);
+                && Time.time - _attackState.LastAttackTime >= context.Config.AttackCooldown 
+                && !context.Target.IsDead);
             _stateMachine.AddTransition(_attackState, _chaseState, () =>
                 _attackState.IsCompleted);
             

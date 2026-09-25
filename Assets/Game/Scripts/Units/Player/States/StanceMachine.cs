@@ -13,6 +13,7 @@ namespace Ach.Units.Player
         private readonly DrawState _draw;
         private readonly InteractState _interact;
         private readonly DropState _drop;
+        private readonly DisabledState _disabled;
         
         public bool IsAiming => _stateMachine.CurrentState == _aim;
         public bool IsReloading => _stateMachine.CurrentState == _reload;
@@ -31,6 +32,7 @@ namespace Ach.Units.Player
             _draw = new DrawState(ctx);
             _interact = new InteractState(ctx);
             _drop =  new DropState(ctx);
+            _disabled = new DisabledState(ctx);
             
             //Stance
             _stateMachine.AddTransition(_idle, _aim, () 
@@ -82,6 +84,9 @@ namespace Ach.Units.Player
                 => _holster.IsCompleted && !ctx.Weapon.HasPending);
             _stateMachine.AddTransition(_draw, _idle, () 
                 => _draw.IsCompleted);
+            
+            //Dead
+            _stateMachine.AddAnyTransition(_disabled, () => ctx.Locomotion.IsDead);
 
             
             _stateMachine.SetInitialState(_idle);

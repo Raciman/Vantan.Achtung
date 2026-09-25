@@ -15,7 +15,7 @@ MonoBehaviour:
   <MaxHealth>k__BackingField: 100
   <Gravity>k__BackingField: 30
   <Speed>k__BackingField: 1
-  <SprintSpeedMultiplier>k__BackingField: 6
+  <SprintSpeedMultiplier>k__BackingField: 2.7
   <ReloadSpeedMultiplier>k__BackingField: 0.8
   <Acceleration>k__BackingField: 60
   <Deceleration>k__BackingField: 80

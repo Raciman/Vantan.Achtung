@@ -1,4 +1,3 @@
-using System;
 using Ach.Events;
 using UnityEngine;
 
@@ -7,6 +6,7 @@ namespace Ach.Units.Player
     public class PlayerHealthComponent : HealthComponent
     {
         [SerializeField] private IntIntEvent healthChangedEvent;
+        [SerializeField] private NoParamsEvent playerDeathEvent;
         
         private void Start()
         {
@@ -17,8 +17,13 @@ namespace Ach.Units.Player
         {
             base.ApplyDamage(damage);
             healthChangedEvent.Raise(Health, maxHealth);
+            
         }
-        
+
+        protected override void DeathHandler()
+        {
+            playerDeathEvent.Raise();
+        }
     }
 }
 

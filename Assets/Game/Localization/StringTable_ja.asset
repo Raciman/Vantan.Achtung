@@ -50,6 +50,26 @@ MonoBehaviour:
     m_Localized: "ESC  /  \u518D\u958B"
     m_Metadata:
       m_Items: []
+  - m_Id: 27886690304
+    m_Localized: "\u30BF\u30A4\u30E4\u3092\u63A2\u3059"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108555739136
+    m_Localized: "\u8ECA\u306B\u623B\u308B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13876748689408
+    m_Localized: "\u5B8C\u4E86"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50068689068032
+    m_Localized: "E\u30AD\u30FC\u3092\u62BC\u3059"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54228826267648
+    m_Localized: "\u6B7B\u4EA1"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

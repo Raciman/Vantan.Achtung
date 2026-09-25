@@ -23,10 +23,6 @@ MonoBehaviour:
     m_Key: quest2
     m_Metadata:
       m_Items: []
-  - m_Id: 178973908992
-    m_Key: newGame
-    m_Metadata:
-      m_Items: []
   - m_Id: 13876748689408
     m_Key: quest3
     m_Metadata:
@@ -61,6 +57,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 26522675912710
     m_Key: Menu.ResumeHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50068689068032
+    m_Key: interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54228826267648
+    m_Key: Menu.Dead
     m_Metadata:
       m_Items: []
   m_Metadata:
