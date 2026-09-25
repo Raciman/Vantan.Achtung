@@ -1,5 +1,0 @@
-PASS
-Both flag buttons, live English/Japanese text, font glyphs and screenshots
-Escape toggles; pause clears intent; held fire is blocked until release and a new press
-Continue works through EventSystem and its click does not shoot
-Return-to-menu loader, locale retention and repeated gameplay entry
